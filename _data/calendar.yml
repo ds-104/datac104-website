@@ -5,3 +5,14 @@ google_calendar_id: None
 
 google_calendar_embed_link: None
 google_calendar_add_link: None
+
+# When making your calendar, please title your events as follows (this is for color coding):
+# - OH: Include "Office Hours" in the name
+# - Lecture: Include "Lecture" in the name
+# - Discussion: Include "Discussion" in the name
+#   - If you have special discussion names, we've also created different coloring for
+#     - Bridge
+#     - Exam Prep
+# - Project Party: Include "Project" and "Party" in the name (for instance, "Project 1 Party" works)
+# - Exam: Include "Exam", "Quest", "Midterm", "MT", or "Final" in the name
+# - Review Session: Include "Review Session" in the name
