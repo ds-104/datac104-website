@@ -1,0 +1,7 @@
+# Follow the steps on https://fullcalendar.io/docs/v4/google-calendar until "Getting Set Up" to obtain the google_calendar_id.
+
+google_api_key: None
+google_calendar_id: None
+
+google_calendar_embed_link: None
+google_calendar_add_link: None

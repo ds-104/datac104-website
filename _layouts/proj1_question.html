@@ -1,0 +1,24 @@
+---
+layout: project
+---
+
+{% assign question_index = page.question_no | minus: 1 %}
+{% assign question = site.data.proj1_questions[question_index] %}
+
+<h1>
+  {{ question.username | capitalize }}
+  {%- if question.title_extra %} ({{ question.title_extra }}){% endif -%}
+</h1>
+
+<ul>
+  <li><em>Username:</em> <code>{{ question.username }}</code></li>
+  <li>
+    <details>
+      <summary><em>Click to reveal password:</em></summary>
+      <code>{{ question.password }}</code>
+    </details>
+  </li>
+  <li><em>Points:</em> {{ question.points }}</li>
+</ul>
+
+{{ content }}
