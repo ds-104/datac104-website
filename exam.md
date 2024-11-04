@@ -14,8 +14,6 @@ The {{ site.data.exams.current_exam }} is on <strong>{{ current_exam.date }}</st
 
 If you need to take the exam remotely at that time, or if you need to take an alternate exam, or if you have another exam at the same time, or if you need DSP accommodations, please fill out this [{{ site.data.exams.current_exam }} accomodations form]({{ current_exam.form }}) by <strong>{{ current_exam.form_deadline }}</strong>. We will respond to all form submissions after the form closes. The form will remain open until {{ current_exam.form_open_until }}, but we cannot guarantee any requests submitted after {{ current_exam.form_deadline }}.<br>
 
-<!--We sent out room assignments on [insert date]. Email cs161-staff@berkeley.edu if you need to change anything, or if you didn't receive a room assignment.-->
-
 The scope of the {{ site.data.exams.current_exam }} is as follows: <strong>{{ current_exam.scope }}</strong>.<br>
 
 The exam will be closed-book, closed-notes, and closed-Internet. No calculators are allowed (no questions should require a calculator). However, you may use {{ current_exam.num_cheatsheets }} cheat sheets (each two-sided) of your own design. The cheat sheets must be handwritten on standard A4 or letter paper (8.5 x 11 inches). Handwritten tablet notes may be printed and used. If you need to print for free, you can access a [list of instructional printers](https://wprint.eecs.berkeley.edu:9192/user). Each student has $12.00 in their printing account for each semester, which is enough for 200 single-sided black and white printed sheets or 120 double-sided black and white printed sheets. Learn more about [EECS printers](https://inst.eecs.berkeley.edu/cgi-bin/pub.cgi?file=printers.help).
