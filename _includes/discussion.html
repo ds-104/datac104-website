@@ -64,57 +64,34 @@
   <br>
   {%- if regular_solutions_exists and include.element.released -%}
     {%- if include.element.has_slides -%}
-      <a href="{{ include.element.slides | relative_url }}" aria-label="Slides for Discussion {{ include.number }}">Slides</a> / <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }}">Worksheet</a>
+      <a href="{{ include.element.slides | relative_url }}" aria-label="Slides for Discussion {{ include.number }} ({{ include.element.title }})">Slides</a> / <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }} ({{ include.element.title }})">Worksheet</a>
     {%- else -%}
-      <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }}">Worksheet</a>
+      <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }} ({{ include.element.title }})">Worksheet</a>
     {%- endif -%}
     {%- if include.element.sols_released and include.element.regular_video -%}
-      &nbsp;/ <a href="{{ filename_regular_solutions | relative_url }}" aria-label="Solutions for Discussion {{ include.number }}">Solutions</a> / <a href="{{ include.element.regular_video | relative_url }}" aria-label="Video for Discussion {{ include.number }}">Video</a>
+      &nbsp;/ <a href="{{ filename_regular_solutions | relative_url }}" aria-label="Solutions for Discussion {{ include.number }} ({{ include.element.title }})">Solutions</a> / <a href="{{ include.element.regular_video | relative_url }}" aria-label="Video for Discussion {{ include.number }} ({{ include.element.title }})">Video</a>
     {%- endif -%}
   {%- endif -%}
   {%- if examprep_solutions_exists and include.element.released -%}
     <br>
-    <a href="{{ filename_examprep | relative_url }}" aria-label="Worksheet for Exam Prep {{ include.number }}">Exam Prep</a>
+    <a href="{{ filename_examprep | relative_url }}" aria-label="Worksheet for Exam Prep {{ include.number }} ({{ include.element.title }})">Exam Prep</a>
     {%- if include.element.sols_released and include.element.examprep_video -%}
-      &nbsp;/ <a href="{{ filename_examprep_solutions | relative_url }}" aria-label="Solutions for Exam Prep {{ include.number }}">Solutions</a> / <a href="{{ include.element.examprep_video | relative_url }}" aria-label="Video for Exam Prep {{ include.number }}">Video</a>
+      &nbsp;/ <a href="{{ filename_examprep_solutions | relative_url }}" aria-label="Solutions for Exam Prep {{ include.number }} ({{ include.element.title }})">Solutions</a> / <a href="{{ include.element.examprep_video | relative_url }}" aria-label="Video for Exam Prep {{ include.number }} ({{ include.element.title }})">Video</a>
     {%- endif -%}
   {%- endif -%}
-{%- elsif final_exist -%}
-  <br>
-  <b>Worksheets:</b>
-  <br>
-  <a href="{{ filename_search | relative_url }}">Search</a> / <a href="{{ filename_csp | relative_url }}">CSP</a> / <a href="{{ filename_games | relative_url }}">Games</a> / <a href="{{ filename_rl | relative_url }}">RL</a>
-  <br>
-  <a href="{{ filename_bayes_nets | relative_url }}">Bayes' Nets</a> / <a href="{{ filename_hmms | relative_url }}">HMMs</a> / <a href="{{ filename_ml | relative_url }}">ML</a>
-  <br>
-  <b>Solutions:</b>
-  <br>
-  <a href="{{ filename_search_sols | relative_url }}">Search</a> / <a href="{{ filename_csp_sols | relative_url }}">CSP</a> / <a href="{{ filename_games_sols | relative_url }}">Games</a> / <a href="{{ filename_rl_sols | relative_url }}">RL</a>
-  <br>
-  <a href="{{ filename_bayes_nets_sols | relative_url }}">Bayes' Nets</a> / <a href="{{ filename_hmms_sols | relative_url }}">HMMs</a> / <a href="{{ filename_ml_sols | relative_url }}">ML</a>
-  <br>
-{%- elsif extra_exist -%}
-  <br>
-  <a href="{{ filename_rl | relative_url }}">RL</a> / <a href="{{ filename_games | relative_url }}">Games</a> / <a href="{{ filename_csp | relative_url }}">CSP</a>
-  <br>
-  <a href="{{ filename_search | relative_url }}">Search</a> / <a href="{{ filename_mdp | relative_url }}">MDP</a>
-  <br>
-  <a href="{{ filename_rl_sols | relative_url }}">Solutions (RL)</a> / <a href="{{ filename_games_sols | relative_url }}">Solutions (Games)</a> / <a href="{{ filename_csp_sols | relative_url }}">Solutions (CSP)</a>
-  <br>
-  <a href="{{ filename_search_sols | relative_url }}">Solutions (Search)</a> / <a href="{{ filename_mdp_sols | relative_url }}">Solutions (MDP)</a>
 {%- elsif examprep_exists or regular_exists -%}
   {%- if regular_exists -%}
     <br>
-    <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }}">Worksheet</a>
+    <a href="{{ filename_regular | relative_url }}" aria-label="Worksheet for Discussion {{ include.number }} ({{ include.element.title }})">Worksheet</a>
     {%- if include.element.regular_video and include.element.sols_released -%}
-      &nbsp;/ <a href="{{ include.element.regular_video | relative_url }}" aria-label="Video for Discussion {{ include.number }}">Video</a>
+      &nbsp;/ <a href="{{ include.element.regular_video | relative_url }}" aria-label="Video for Discussion {{ include.number }} ({{ include.element.title }})">Video</a>
     {%- endif -%}
   {%- endif -%}
   {%- if examprep_exists -%}
     <br>
-    <a href="{{ filename_examprep | relative_url }}" aria-label="Worksheet for Exam Prep {{ include.number }}">Exam Prep</a>
+    <a href="{{ filename_examprep | relative_url }}" aria-label="Worksheet for Exam Prep {{ include.number }} ({{ include.element.title }})">Exam Prep</a>
     {%- if include.element.examprep_video and include.element.sols_released  -%}
-      &nbsp;/ <a href="{{ include.element.examprep_video | relative_url }}" aria-label="Video for Exam Prep {{ include.number }}">Video</a>
+      &nbsp;/ <a href="{{ include.element.examprep_video | relative_url }}" aria-label="Video for Exam Prep {{ include.number }} ({{ include.element.title }})">Video</a>
     {%- endif -%}
   {%- endif -%}
 {%- endif -%}

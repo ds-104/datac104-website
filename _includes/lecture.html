@@ -43,13 +43,13 @@ then remove class="{{ include.is_even }}" below.
   {%- if include.element.slides or include.element.recording or include.element.readings.size > 0 or include.element.guest_lecture -%}
   <br>
   {%- if include.element.slides -%}
-  <a href="{{ include.element.slides }}" aria-label="Slides for Lecture {{ include.number }}">Slides</a>
+  <a href="{{ include.element.slides }}" aria-label="Slides for Lecture {{ include.number }} ({{ include.element.title }})">Slides</a>
   {%- if include.element.recording or include.element.readings.size > 0 -%}
   {{}} / {{}}
   {%- endif -%}
   {%- endif -%}
   {%- if include.element.recording -%}
-  <a href="{{ include.element.recording }}" aria-label="Recording for Lecture {{ include.number }}">Recording</a>
+  <a href="{{ include.element.recording }}" aria-label="Recording for Lecture {{ include.number }} ({{ include.element.title }})">Recording</a>
   {%- if include.element.readings.size > 0 -%}
   {{}} / {{}}
   {%- endif -%}
