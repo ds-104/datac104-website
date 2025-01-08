@@ -16,8 +16,20 @@
 title: Course Name
 description: Course Name at School Name
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 
+url:
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
+
+# Heading settings
+lecture:
+  time: "Date Time"
+  location:
+      name: "Location"
+      link: ""
+heading_links:
+  - text: "Zoom"
+    url: ""
+  - text: "Project"
+    url: ""
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.8.2
@@ -99,6 +111,9 @@ enable_copy_code_button: true
 # CS 188 custom config variable
 # Set this to true at the start of semesters to show a warning on the homepage
 under_construction: false
+
+# Set this to true to show a warning telling people on the waitlist to check FAQs
+waitlist_warning: false
 
 # Set this to true if discussion times are uncertain (populates on calendar.md)
 discussions_under_construction: false
