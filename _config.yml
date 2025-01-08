@@ -16,8 +16,20 @@
 title: Course Name
 description: Course Name at School Name
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 
+url:
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
+
+# Heading settings
+lecture:
+  time: "Date Time"
+  location:
+      name: "Location"
+      link: ""
+heading_links:
+  - text: "Zoom"
+    url: ""
+  - text: "Project"
+    url: ""
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.8.2
