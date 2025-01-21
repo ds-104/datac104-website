@@ -7,9 +7,9 @@
 #   - Click "Settings and sharing"
 # - google_calendar_id: 
 #   - Go to calendar settings (see above)
-#   - Scroll to "Access permissions for events"
-#   - Click "Get shareable link"
-#   - Copy the URL with calendar/u/0?cid= in it
+#   - Scroll to "Integrate calendar"
+#   - Copy "Calendar ID"
+#   - The thing you copy should look like c_c12345@group.calendar.google.com
 # - google_calendar_embed_link:
 #   - Go to calendar settings (see above)
 #   - Scroll to "Integrate calendar"
@@ -17,9 +17,9 @@
 #   - The URL you copy should have calendar/embed?src=c_ in it
 # - google_calendar_add_link:
 #   - Go to calendar settings (see above)
-#   - Scroll to "Integrate calendar"
-#   - Copy "Calendar ID"
-#   - The thing you copy should look like c_c12345@group.calendar.google.com
+#   - Scroll to "Access permissions for events"
+#   - Click "Get shareable link"
+#   - Copy the URL with calendar/u/0?cid= in it
 
 google_api_key: None
 google_calendar_id: None
