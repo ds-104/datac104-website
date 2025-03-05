@@ -1,10 +1,10 @@
 ---
-name: EvanBot
-pronouns: any/all
+name: Ari Edmundson
+pronouns: he/him
 role: Instructor
 spaaccess: True
 dspdata: True
-email: evanbot@berkeley.edu
+email: aedmundson@berkeley.edu 
 photo: evanbot.jpg
 ---
 

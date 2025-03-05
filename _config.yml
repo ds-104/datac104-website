@@ -14,22 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Data C104
-description: Course Name at School Name
+description: Data C104 at UC Berkeley
 baseurl: '' # the subpath of your site, e.g. /blog
 url:
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 
 # Heading settings
 lecture:
-  time: "Date Time"
+  time: "2:00 - 3:00"
   location:
-      name: "Location"
+      name: "Dwinelle 155"
       link: ""
 heading_links:
-  - text: "Zoom"
-    url: ""
-  - text: "Playlist"
-    url: ""
+  # - text: "Zoom"
+  #   url: ""
+  # - text: "Playlist"
+  #   url: ""
 lecture_prefix: "csXXX-sp25-lec"
 
 # Theme settings
@@ -41,10 +41,10 @@ permalink: pretty
 aux_links:
   Dark Mode:
     - '#'
-  Ed:
-    - 'https://edstem.org'
-  OH Queue:
-    - 'https://oh.cs161.org'
+  # Ed:
+  #   - 'https://edstem.org'
+  # OH Queue:
+  #   - 'https://oh.cs161.org'
   Source Code on GitHub:
     - 'https://github.com/cs161-staff/course-site-template'
 footer_content:
