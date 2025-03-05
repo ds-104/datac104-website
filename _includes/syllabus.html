@@ -48,12 +48,12 @@ sorted_dates is an array, where each element is a hash with three fields:
     - Use syllabus.yml to change table widths.
     {%- endcomment -%}
     <thead>
-    <th style="width:{{ site.data.syllabus.week_width }}">Wk.</th>
+    <th style="width:{{ site.data.syllabus.unit_width }}">Unit</th>
+    <!-- <th style="width:{{ site.data.syllabus.week_width }}">Wk.</th> -->
     <th style="width:{{ site.data.syllabus.date_width }}">Date</th>
     <th style="width:{{ site.data.syllabus.lecture_width }}">Lecture</th>
-    <th style="width:{{ site.data.syllabus.discussion_width }}">Discussion</th>
-    <th style="width:{{ site.data.syllabus.homework_width }}">HW</th>
-    <th style="width:{{ site.data.syllabus.project_width }}">Project</th>
+    <th style="width:{{ site.data.syllabus.readings_width }}">Readings</th>
+    <th style="width:{{ site.data.syllabus.recommended_width }}">Recommended Readings</th>
     </thead>
 
     {%- comment -%}
@@ -157,6 +157,27 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- for day in week.items -%}
     <tr>
       {%- comment -%}
+      - Render the project column.
+      - For simplicity, the code for each column should be kept identical (only
+      swapping out the column names.
+      {%- endcomment -%}
+      {%- if project_rowspan == 0 -%}
+      {%- assign project_element = site.data.projects.projects[project_index] -%}
+      {%- if project_element.rowspan -%}
+      {%- assign new_rowspan = project_element.rowspan -%}
+      {%- else -%}
+      {%- assign new_rowspan = default_project_rowspan -%}
+      {%- endif -%}
+      {%- include project.html element=project_element number=project_number rowspan=new_rowspan is_even=is_even  -%}
+      {%- assign project_rowspan = new_rowspan | plus:-1 -%}
+      {%- assign project_index = project_index | plus:1 -%}
+      {%- unless project_element.nonumber -%}
+      {%- assign project_number = project_number | plus:1 -%}
+      {%- endunless -%}
+      {%- else -%}
+      {%- assign project_rowspan = project_rowspan | plus:-1 -%}
+      {%- endif -%}
+      <!-- {%- comment -%}
       - Render the week number column.
       - We use forloop.first to render the week number only once per week.
       - We use the "size" field of the week hash to see how many days we're
@@ -169,7 +190,7 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- endcomment -%}
       {%- if forloop.first -%}
       <td class="{{ is_even }}" rowspan="{{ week.size }}" id="week-{{ week.name }}">{{ week_number }}</td>
-      {%- endif -%}
+      {%- endif -%} -->
 
       {%- comment -%}
       - Render the date column.
@@ -278,28 +299,6 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- endunless -%}
       {%- else -%}
       {%- assign homework_rowspan = homework_rowspan | plus:-1 -%}
-      {%- endif -%}
-
-      {%- comment -%}
-      - Render the project column.
-      - For simplicity, the code for each column should be kept identical (only
-      swapping out the column names.
-      {%- endcomment -%}
-      {%- if project_rowspan == 0 -%}
-      {%- assign project_element = site.data.projects.projects[project_index] -%}
-      {%- if project_element.rowspan -%}
-      {%- assign new_rowspan = project_element.rowspan -%}
-      {%- else -%}
-      {%- assign new_rowspan = default_project_rowspan -%}
-      {%- endif -%}
-      {%- include project.html element=project_element number=project_number rowspan=new_rowspan is_even=is_even  -%}
-      {%- assign project_rowspan = new_rowspan | plus:-1 -%}
-      {%- assign project_index = project_index | plus:1 -%}
-      {%- unless project_element.nonumber -%}
-      {%- assign project_number = project_number | plus:1 -%}
-      {%- endunless -%}
-      {%- else -%}
-      {%- assign project_rowspan = project_rowspan | plus:-1 -%}
       {%- endif -%}
 
     </tr>
