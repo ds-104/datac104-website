@@ -36,7 +36,19 @@
 # HW6: networking thru TLS
 # HW7: potpourri
 
+# homeworks:
+#   - hw_link: "https://TODO"
+#     due: "9/6"
+#     rowspan: 1
+
 homeworks:
-  - hw_link: "https://TODO"
-    due: "9/6"
-    rowspan: 1
+  - title: "Do Artifacts Have Politics by Langdon Winner"
+    nonumber: True
+    # released: True
+    # sols_released: False
+    # regular_video: ""
+    # examprep_video: ""
+  - title: "Introductory Essay by Donald MacKenzie and Judy Wajcman"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True

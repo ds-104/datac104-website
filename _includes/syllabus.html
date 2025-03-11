@@ -269,7 +269,7 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- else -%}
       {%- assign new_rowspan = default_discussion_rowspan -%}
       {%- endif -%}
-      {%- include discussion.html element=discussion_element number=discussion_number rowspan=new_rowspan is_even=is_even -%}
+      {%- include discussion.html element=discussion_element rowspan=new_rowspan is_even=is_even -%}
       {%- assign discussion_rowspan = new_rowspan | plus:-1 -%}
       {%- assign discussion_index = discussion_index | plus:1 -%}
       {%- unless discussion_element.nonumber -%}

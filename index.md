@@ -28,7 +28,7 @@ This website contains materials from a past semester. Information, assignments, 
 {%- endif -%}
 
 
-<img align="right" alt="161 lock logo" width="85px" src="{{ site.baseurl }}/assets/images/logo.png">
+<!-- <img align="right" alt="Data C104 logo" width="120px" src="{{ site.baseurl }}/assets/images/logo.png"> -->
 
 # {{ site.title }}
 

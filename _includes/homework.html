@@ -7,7 +7,8 @@
 If you don't want homework boxes to alternate colors per week,
 then remove class="{{ include.is_even }}" below.
 {%- endcomment -%}
-<td rowspan="{{ include.rowspan }}">
+<td class="{{ include.is_even }}" rowspan="{{ include.rowspan }}">
+  
   {%- comment -%}
   - TODO: Currently using nonumber to figure out when not to display links. Is there a cleaner way?
   - TODO: Currently using "due" to figure out whether to display HW. Is there a cleaner way?

@@ -40,13 +40,63 @@
 # whether to display links to worksheets.
 
 discussions:
-  - title: "Do Artifacts Have Politics, Langdon Winner"
+  #   - section: 1
+  #     titles:
+  #       - "Do Artifacts Have Politics, by Langdon Winner"
+  #       - "Reading 2"
+  #     rowspan: 1
+  #   # released: True
+  #   # sols_released: True
+  #   # regular_video: "https://www.youtube.com/watch?v=FMLe4g8wGXE"
+  # #   rowspan: 1
+  - title: "Do Artifacts Have Politics by Langdon Winner"
+    nonumber: True
     # released: True
-    # sols_released: True
-    # regular_video: "https://www.youtube.com/watch?v=FMLe4g8wGXE"
-    rowspan: 1
-  - title: "Discussion Title"
-    released: True
-    sols_released: False
-    regular_video: ""
-    examprep_video: ""
+    # sols_released: False
+    # regular_video: ""
+    # examprep_video: ""
+  - title: "Introductory Essay by Donald MacKenzie and Judy Wajcman"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "Sorting Things Out by G.C. Bowker and S.L. Star <br> Bay Area Air Quality Management District (BAAQMD) Public Data"
+  - title: "How We Became Our Data by C. Koopman, Coded Exposure by Ruha Benjamin"
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+  - title: ""
+
+
+# discussions:
+#   - week: 1
+#     discussions:
+#       title: "Discussion 1.1"
+#       title: "Discussion 1.2"
+#   - week: 2
+#     discussions:
+#       - "Discussion 2.1"
+#       - "Discussion 2.2"
+#       - "Discussion 2.3"
+#   - week: 3
+#     discussions:
+#       - "Discussion 3.1"
