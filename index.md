@@ -41,13 +41,13 @@ This website contains materials from a past semester. Information, assignments, 
 <span style="white-space: nowrap;">
     <strong>Lecture</strong>: {{ site.lecture.time }}
     {%- if site.lecture.location.name != empty and site.lecture.location.link != empty -%}
-    , [{{site.lecture.location.name}}]({{site.lecture.location.link}})
+    <!-- , [{{site.lecture.location.name}}]({{site.lecture.location.link}}) -->
     {%- elsif site.lecture.location.name != empty -%}
     , {{site.lecture.location.name}}
     {%- endif -%}
 </span>
 {% endif -%}
-{%- if site.heading_links.size != 0 -%}
+<!-- {%- if site.heading_links.size != 0 -%}
 <span style="white-space: nowrap;">
     [
     {%- for link in site.heading_links -%}
@@ -60,7 +60,7 @@ This website contains materials from a past semester. Information, assignments, 
     {%- endfor -%}
     ]
 </span>
-{% endif -%}
+{% endif -%} -->
 
 ## Course Calendar
 

@@ -24,13 +24,13 @@ lecture:
   time: "2:00 - 3:00"
   location:
       name: "Dwinelle 155"
-      link: ""
-heading_links:
-  # - text: "Zoom"
-  #   url: ""
-  # - text: "Playlist"
-  #   url: ""
-lecture_prefix: "csXXX-sp25-lec"
+      # link: ""
+# heading_links:
+#   - text:
+#     url:
+#   - text:
+#     url:
+# lecture_prefix: "csXXX-sp25-lec"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.8.2
