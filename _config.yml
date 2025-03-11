@@ -16,7 +16,7 @@
 title: Data C104
 description: Data C104 at UC Berkeley
 baseurl: '/fa24' # the subpath of your site, e.g. /blog
-url:
+url: 'ds-104.github.io/datac104-website'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 staff_email: 'evanbot@berkeley.edu'
 
