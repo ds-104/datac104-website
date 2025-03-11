@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Data C104
 description: Data C104 at UC Berkeley
-baseurl: '/fa24' # the subpath of your site, e.g. /blog
-url: 'ds-104.github.io/datac104-website'
+baseurl: '/datac104-website' # the subpath of your site, e.g. /blog
+url: 'https://ds-104.github.io'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 staff_email: 'evanbot@berkeley.edu'
 
@@ -42,10 +42,6 @@ permalink: pretty
 aux_links:
   Dark Mode:
     - '#'
-  # Ed:
-  #   - 'https://edstem.org'
-  # OH Queue:
-  #   - 'https://oh.cs161.org'
   Source Code on GitHub:
     - 'https://github.com/cs161-staff/course-site-template'
 footer_content:
@@ -112,7 +108,7 @@ enable_copy_code_button: true
 
 # CS 188 custom config variable
 # Set this to true at the start of semesters to show a warning on the homepage
-under_construction: false
+under_construction: true
 
 # Set this to true to show a warning telling people on the waitlist to check FAQs
 waitlist_warning: false
@@ -122,3 +118,10 @@ discussions_under_construction: false
 
 # Set this to true to archive the semester
 outdated: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-jupyter-notebook
