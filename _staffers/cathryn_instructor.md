@@ -1,6 +1,6 @@
 ---
 name: Cathryn Carson
-pronouns: she.they
+pronouns: she/they
 role: Instructor
 spaaccess: True
 dspdata: True
