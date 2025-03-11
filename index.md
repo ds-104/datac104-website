@@ -11,7 +11,7 @@ nav_order: 0
 
 {%- if site.under_construction -%}
 <p class="warning">
-This site is under construction. All dates and policies are tentative until this message goes away.
+This site is under construction. Further, all dates and policies apply to the Fall 2024 offering of Data C104 only.
 </p>
 {%- endif -%}
 
@@ -34,14 +34,15 @@ This website contains materials from a past semester. Information, assignments, 
 
 {% if instructors.size != 0 %}
 <span style="white-space: nowrap;">
-    <strong>{{instructor_msg}}</strong>: {{ instructors | join: ", " }}{%- if site.lecture.time != "" %} / {%- endif -%}
+    <strong>{{instructor_msg}}</strong>: {{ instructors | join: ", " }}{%- if site.lecture.time != "" %} {%- endif -%}
+    <br>
 </span>
 {% endif -%}
 {%- if site.lecture.time != empty -%}
 <span style="white-space: nowrap;">
     <strong>Lecture</strong>: {{ site.lecture.time }}
     {%- if site.lecture.location.name != empty and site.lecture.location.link != empty -%}
-    <!-- , [{{site.lecture.location.name}}]({{site.lecture.location.link}}) -->
+    , [{{site.lecture.location.name}}]({{site.lecture.location.link}})
     {%- elsif site.lecture.location.name != empty -%}
     , {{site.lecture.location.name}}
     {%- endif -%}
