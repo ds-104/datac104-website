@@ -1,0 +1,47 @@
+objectives:
+  - title: "Week 1: This week sets the stage for Data C104 by asking fundamental questions about the relationship between data and society. How does data make social order? Do datafied artifacts have politics? In order to unpack these questions, we begin with what seems like a simple example—a bridge— to illustrate how even everyday technologies carry political implications, structure social order, and exert power in ways that are often invisible. From there, we explore the layers of the datafied world, preparing students to critically engage with technologically determinist narratives and embrace more contextual, sociotechnical perspectives. Along the way, we emphasize the everydayness of data and its role in shaping the world around us."
+    nonumber: True
+    rowspan: 2
+  - title: "Week 2: This week grapples with questions of how data is made and what data does in the world. A core objective is to denaturalize students’ assumptions about the origins of data and reveal the selective processes that turn complex human experiences into abstracted, numerical representations to govern human life. Students learn that there is a distinction between selectivity, which encompasses deliberate choices made about what to count, and bias, which encompasses the perspectives, values, and assumptions that shape what is not counted. Whether measuring air quality or ranking people, classification systems built on data tend to obscure context, reinforcing a cycle of decontextualization and repurposing. We explore how this abstraction can erase the human stories behind the data and lead to real harm, particularly for marginalized communities like the unhoused in Los Angeles. Throughout the week, emphasis is placed on the need to appreciate the collective dimensions of data, listen to data subjects, and consider how the abstraction of personal data can heighten vulnerability. Regardless of intent, representational harm can be experienced by communities when their complex realities are reduced to abstracted metrics."
+    nonumber: True
+    rowspan: 3
+  - title: "Week 3: This week traces intertwined histories to reveal how scientific knowledge is made, how it changes over time, and what makes it authoritative. Rather than viewing science as a linear accumulation of discoveries by great men, we present it as a social activity composed of scientific communities and shaped by their everyday practices. This approach prepares students to see scientific progress as a process mediated by culture and which changes, sometimes radically, as values and perspectives shift. At the same time, we explore how numbers came to be regarded as authoritative, showing that the rise of quantified data as a trustworthy measure of objective truth was neither natural nor inevitable. Rather, it emerged as a “strategy of communication,” shaping arguments and reinforcing public trust in democratic societies. Understanding these histories opens space for students to critically engage with claims of objectivity and to see the human choices, assumptions, and power structures embedded in knowledge production."
+    nonumber: True
+    rowspan: 3
+  - title: "Week 4: This week dives into the narratives that shape our engagement with technologies in the datafied world, asking where they come from, who they serve, and how they generate value. Central to this discussion is the ways in which humans construct possible data futures through forward-looking narratives and templates which project visions of technological progress, risk, or inevitability. As students learn, these imagined fictions are not only describing the future but actively shaping it in ways that reflect power, values, and priorities in the present. They also encompass data subjects who, much like the cyborgs of popular fiction, find their identities coproduced by sociotechnical systems, classification structures, and data technologies. By the end of the week, students will develop a critical lens for recognizing, analyzing, and denaturalizing narratives, such as “data is the new oil”, in order to discern the ways in which data is not only made but also generates value as a form of capital. This discussion introduces capitalism as a fundamental driver of datafication, revealing how the current data imperative is bound up with labor, extraction, commodification, and the stories we tell. "
+    nonumber: True
+    rowspan: 3
+  - title: "Week 5: This week demonstrates how the rise of modern state power was deeply tied to the creation of populations as measurable entities, and how statistics became a key tool for making them visible, knowable, and governable. Students will come to understand that “population” is not a neutral category, but a concept shaped by statistical methods to regulate and manage people on a large scale. This process not only enabled states to count and classify individuals but also led to eugenicist interventions in human heredity under the guise of social improvement. By studying this history, students will recognize that eugenicist logics have not entirely disappeared. They persist at both national and international levels in efforts to enhance human welfare through data-driven governance of things like fertility and population control without fully considering local contexts or reckoning with historical legacies. The goal of the week is for students to critically analyze who is counted in data, whose interests it serves, and how alternative narratives centered on human agency and lived experience might reshape our understanding of the power exercised by governments and international institutions."
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 3
+  - title: " "
+    nonumber: True
+    rowspan: 2
+ 
