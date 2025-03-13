@@ -42,13 +42,13 @@
 #     rowspan: 1
 
 homeworks:
-  - title: "Do Artifacts Have Politics by Langdon Winner"
+  - title: "No Recommended Readings"
     nonumber: True
-    # released: True
-    # sols_released: False
-    # regular_video: ""
-    # examprep_video: ""
-  - title: "Introductory Essay by Donald MacKenzie and Judy Wajcman"
+  - title: "No Recommended Readings"
     nonumber: True
-  - title: "No Readings"
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Big Data is People! by Rebecca Lemov <br> Me and My Data by Sarah Igo <br> Data as Property? by Salome Viljoen <br> Why Paying Individual People for Their Health Data is a Bad Idea by Barbara Prainsack and Nicholas Forgó <br> The NIH Is Bypassing Tribal Sovereignty to Harvest Genetic Data From Native Americans by T. Hansen and J. Keeler <br> The CARE Principles for Indigenous Data Governance by S.R. Carroll et al."
     nonumber: True

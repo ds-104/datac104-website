@@ -40,63 +40,89 @@
 # whether to display links to worksheets.
 
 discussions:
-  #   - section: 1
-  #     titles:
-  #       - "Do Artifacts Have Politics, by Langdon Winner"
-  #       - "Reading 2"
-  #     rowspan: 1
-  #   # released: True
-  #   # sols_released: True
-  #   # regular_video: "https://www.youtube.com/watch?v=FMLe4g8wGXE"
-  # #   rowspan: 1
   - title: "Do Artifacts Have Politics by Langdon Winner"
     nonumber: True
-    # released: True
-    # sols_released: False
-    # regular_video: ""
-    # examprep_video: ""
   - title: "Introductory Essay by Donald MacKenzie and Judy Wajcman"
     nonumber: True
   - title: "No Readings"
     nonumber: True
   - title: "Sorting Things Out by G.C. Bowker and S.L. Star <br> Bay Area Air Quality Management District (BAAQMD) Public Data"
-  - title: "How We Became Our Data by C. Koopman, Coded Exposure by Ruha Benjamin"
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-  - title: ""
-
-
-# discussions:
-#   - week: 1
-#     discussions:
-#       title: "Discussion 1.1"
-#       title: "Discussion 1.2"
-#   - week: 2
-#     discussions:
-#       - "Discussion 2.1"
-#       - "Discussion 2.2"
-#       - "Discussion 2.3"
-#   - week: 3
-#     discussions:
-#       - "Discussion 3.1"
+    nonumber: True
+  - title: "How We Became Our Data by C. Koopman <br> Coded Exposure by Ruha Benjamin"
+    nonumber: True
+  - title: "Introduction: A Role for History by Thomas Kuhn"
+    nonumber: True
+  - title: "Objectivity and Authority: How French Engineers Reduced Public Utility to Numbers by Theodore Porter"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "1984 by George Orwell<br>Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology by M. Hildebrandt<br>Google's Selfish Ledger is an unsettling vision of Silicon Valley social engineering by V. Savov"
+    nonumber: True
+  - title: "Chapter Five: A Manifesto for Cyborgs by Laura Forlano and Danya Glabau"
+    nonumber: True
+  - title: "Chapter 2: A Universe of Data by Jathan Sadowski<br>OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic by Billy Perrigo"
+    nonumber: True
+  - title: "Chapter 1: Nature and Space by James C. Scott"
+    nonumber: True
+  - title: "How Eugenics Shaped Statistics by ubrey Clayton"
+    nonumber: True
+  - title: "Why Are Certain Countries Poor? Dismantling Comparative Models of Development by Andrew Brooks"
+    nonumber: True
+  - title: "Hail the Maintainers by L. Vinsel and A. Russel"
+    nonumber: True
+  - title: "The Deaths of Effective Altruism by Leif Wenar<br>Chapter 4: The Precariousness of the STEM Job by John D. Skrenty"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "Panopticism by Michel Foucault<br>The Most Surveilled Place in America by Gaby Del Valle"
+    nonumber: True
+  - title: "Contextual Integrity, Explained: A More Usable Privacy Definition by Nathan Malkin"
+    nonumber: True
+  - title: "Digital Natives': How Medical and Indigenous Histories Matter for Big Data by J. Radin<br>It's Official: Cars Are the Worst Product Category We Have Ever Reviewed For Privacy by Jen Caltrider et al"
+    nonumber: True
+  - title: "Machine Bias: There's software used across the country to predict future criminals. And it's biased against Blacks by J. Angwin, J. Larson, S. Mattu, and L. Kirchner<br>A computer program used for bail and sentencing decisions was labeled biased against Blacks. It's actually not that clear byA. Feller, E. Pierson, S. Corbett-Davies, and S. Goel"
+    nonumber: True
+  - title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, Chapter 4, by Virginia Eubanks"
+    nonumber: True
+  - title: "A Mulching Proposal: Analysing and Improving an Algorithmic System for Turning the Elderly into High-Nutrient Slurry by Os Keyes, et al."
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "The Uncounted: Politics of Data in Global Health – Chapter 1 by Sara L. M. Davis,"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "It's Not Technology That's Disrupting Our Jobs by L. Hyman"
+    nonumber: True
+  - title: "Labor by Kate Crawford"
+    nonumber: True
+  - title: "Uncanny Valley by A. Wiener"
+    nonumber: True
+  - title: "On racialized tech organizations and complaint: A goodbye to Google by Alex Hanna"
+    nonumber: True
+  - title: "The lawmaker behind California’s vetoed AI bill, SB 1047, has harsh words for Silicon Valley by Maxwell Zeff<br>California Governor Vetoes Sweeping A.I. Legislation by Cecilia Kang"
+    nonumber: True
+  - title: "Anatomy of an AI System by Kate Crawford and Vladan Joler"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "The Uselessness of AI Ethics by Luke Munn<br>Brandy, Cigars, and Human Values by Langdon Winner"
+    nonumber: True
+  - title: "About CPHS/OPHS and Guide to the IRB Review Process from UC Berkeley Committee for Protection of Human Subjects"
+    nonumber: True
+  - title: "Moral Crumple Zones: Cautionary Tales in Human-Robot Interactions by Madeleine Clare Elish<br>Spend 15 minutes playing with the MIT Moral Machine"
+    nonumber: True
+  - title: "Stop the Robot Apocalypse by Amia Srinivasan"
+    nonumber: True
+  - title: "Feminist Data Manifest-No"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "Reimagining Open Science Through a Feminist Lens by Denisse Alejandra"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
