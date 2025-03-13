@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HCE Tools
-nav_order: 4
+nav_order: 3
 description: >-
     Learning goals for the course.
 ---
