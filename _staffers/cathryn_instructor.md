@@ -7,3 +7,4 @@ dspdata: True
 email: clcarson@berkeley.edu
 photo: evanbot.jpg
 ---
+add bio here

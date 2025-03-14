@@ -7,3 +7,4 @@ dspdata: True
 email: droddy1990@berkeley.edu 
 photo: evanbot.jpg
 ---
+add bio here

@@ -8,4 +8,4 @@ email: aedmundson@berkeley.edu
 photo: evanbot.jpg
 ---
 
-Likes pancakes. Dislikes C code.
+add bio here
