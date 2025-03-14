@@ -25,7 +25,7 @@ lecture:
   time: "2:00 - 3:00"
   location:
       name: "Dwinelle 155"
-      # link: ""
+      link: ""
 # heading_links:
 #   - text:
 #     url:
@@ -34,7 +34,7 @@ lecture:
 # lecture_prefix: "csXXX-sp25-lec"
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.8.2
+theme: just-the-docs
 color_scheme: light
 search_enabled: true
 heading_anchors: true
