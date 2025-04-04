@@ -49,11 +49,10 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- endcomment -%}
     <thead>
     <th style="width:{{ site.data.syllabus.unit_width }}">Unit</th>
-    <!-- <th style="width:{{ site.data.syllabus.week_width }}">Wk.</th> -->
+    <th style="width:{{ site.data.syllabus.week_width }}">Week</th>
     <th style="width:{{ site.data.syllabus.date_width }}">Date</th>
     <th style="width:{{ site.data.syllabus.lecture_width }}">Lecture</th>
     <th style="width:{{ site.data.syllabus.readings_width }}">Readings</th>
-    <th style="width:{{ site.data.syllabus.recommended_width }}">Recommended Readings</th>
     </thead>
 
     {%- comment -%}
@@ -79,6 +78,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_index = 0 -%}
     {%- assign homework_index = 0 -%}
     {%- assign project_index = 0 -%}
+    {%- assign week_index = 0 -%}
 
     {%- comment -%}
     - Initialize the rowspan counters.
@@ -90,6 +90,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_rowspan = 0 -%}
     {%- assign homework_rowspan = 0 -%}
     {%- assign project_rowspan = 0 -%}
+    {%- assign week_rowspan = 0 -%}
 
     {%- comment -%}
     - Initialize the number counters.
@@ -106,6 +107,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_number = site.data.syllabus.starting_discussion_number -%}
     {%- assign homework_number = site.data.syllabus.starting_homework_number -%}
     {%- assign project_number = site.data.syllabus.starting_project_number -%}
+    {%- assign week_number = site.data.syllabus.starting_week_number -%}
 
     {%- comment -%}
     - These are the default rowspans we assume if you don't provide one in
@@ -116,6 +118,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign default_discussion_rowspan = site.data.syllabus.default_discussion_rowspan -%}
     {%- assign default_homework_rowspan = site.data.syllabus.default_homework_rowspan -%}
     {%- assign default_project_rowspan = site.data.syllabus.default_project_rowspan -%}
+    {%- assign default_week_rowspan = site.data.syllabus.default_week_rowspan -%}
 
     {%- for week in sorted_dates -%}
 
@@ -158,7 +161,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     <tr>
       {%- comment -%}
       - Render the project column.
-      - For simplicity, the code for each column should be kept identical (only
+      - For simplicity, the code for each column should be kept identical only
       swapping out the column names.
       {%- endcomment -%}
       {%- if project_rowspan == 0 -%}
@@ -177,20 +180,29 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- else -%}
       {%- assign project_rowspan = project_rowspan | plus:-1 -%}
       {%- endif -%}
-      <!-- {%- comment -%}
-      - Render the week number column.
-      - We use forloop.first to render the week number only once per week.
-      - We use the "size" field of the week hash to see how many days we're
-      going to display in the week, which tells us how many rows the week
-      number needs to span.
-      - We use the "name" field of the week hash to give us a unique week
-      number (between 1 and 52), which gives each week number box a unique
-      id, and thus allows us to implement the "jump to current week"
-      functionality.
+
+
+      {%- comment -%}
+      - Render the week column.
+      - For simplicity, the code for each column should be kept identical (only
+      swapping out the column names.
       {%- endcomment -%}
-      {%- if forloop.first -%}
-      <td class="{{ is_even }}" rowspan="{{ week.size }}" id="week-{{ week.name }}">{{ week_number }}</td>
-      {%- endif -%} -->
+      {%- if week_rowspan == 0 -%}
+      {%- assign week_element = site.data.week.weeks[week_index] -%}
+      {%- if week_element.rowspan -%}
+      {%- assign new_rowspan = week_element.rowspan -%}
+      {%- else -%}
+      {%- assign new_rowspan = default_week_rowspan -%}
+      {%- endif -%}
+      {%- include discussion.html element=week_element rowspan=new_rowspan is_even=is_even -%}
+      {%- assign week_rowspan = new_rowspan | plus:-1 -%}
+      {%- assign week_index = week_index | plus:1 -%}
+      {%- unless week_element.nonumber -%}
+      {%- assign week_number = week_number | plus:1 -%}
+      {%- endunless -%}
+      {%- else -%}
+      {%- assign week_rowspan = week_rowspan | plus:-1 -%}
+      {%- endif -%}
 
       {%- comment -%}
       - Render the date column.
@@ -279,7 +291,7 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- assign discussion_rowspan = discussion_rowspan | plus:-1 -%}
       {%- endif -%}
 
-      {%- comment -%}
+      <!-- {%- comment -%}
       - Render the homework column.
       - For simplicity, the code for each column should be kept identical (only
       swapping out the column names.
@@ -299,7 +311,7 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- endunless -%}
       {%- else -%}
       {%- assign homework_rowspan = homework_rowspan | plus:-1 -%}
-      {%- endif -%}
+      {%- endif -%} -->
 
     </tr>
     {%- endfor -%}

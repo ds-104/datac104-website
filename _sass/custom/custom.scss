@@ -183,6 +183,13 @@ iframe {
 
 // End UCB header fixes
 
+// Align text to the top for units
+td[class^="proj"] {
+  text-align: center;
+  vertical-align: top;
+  padding-top: 15px;
+}
+
 // Color scheme for projects
 td.proj1 {
   background-color: rgba($purple-000, 0.1) !important

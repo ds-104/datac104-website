@@ -62,6 +62,7 @@ default_homework_rowspan: '1'
 default_project_rowspan: '1'
 
 default_objectives_rowspan: '3'
+default_week_rowspan: '3'
 
 
 #######################################################
@@ -71,10 +72,10 @@ default_objectives_rowspan: '3'
 
 # Edit the widths of columns here.
 unit_width: "13%"
-# week_width: "3%"
+week_width: "8%"
 date_width: "7%"
-lecture_width: "25%"
+lecture_width: "20%"
 readings_width: "25%"
-recommended_width: "25%"
+# recommended_width: "25%"
 
 objective_width: 40%
