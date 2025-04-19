@@ -40,81 +40,81 @@
 # whether to display links to worksheets.
 
 discussions:
-  - title: "<ul><li><i>Do Artifacts Have Politics</i> by Langdon Winner</li></ul>"
+  - title: "<ul><li>Langdon Winnner, \"Do Artifacts Have Politics,\" <i>Daedalus</i> </li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Introductory Essay</i> by Donald MacKenzie and Judy Wajcman</li></ul>"
+  - title: "<ul><li>Donald MacKenzie and Judy Wajcman, “Introductory Essay,” <i>The Social Shaping of Technology</i> </li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
-  - title: "<ul><li><i>Sorting Things Out</i> by G.C. Bowker and S.L. Star</li><li><i>Bay Area Air Quality Management District (BAAQMD) Public Data</i></li></ul>"
+  - title: "<ul><li>G.C. Bowker and S.L. Star, “To Classify is Human,” <i>Sorting Things Out: Classification and Its Consequences</i></li><li>Bay Area Air Quality Management District (BAAQMD)</li></ul>"
     nonumber: True
   - title: "<ul><li><i>How We Became Our Data</i> by C. Koopman</li><li><i>Coded Exposure</i> by Ruha Benjamin</li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Introduction: A Role for History</i> by Thomas Kuhn</li></ul>"
+  - title: "<ul><li>Thomas Kuhn, “Introduction: A Role for History”, <i>The Structure of Scientific Revolutions</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Objectivity and Authority: How French Engineers Reduced Public Utility to Numbers</i> by Theodore Porter</li></ul>"
-    nonumber: True
-  - title: "No Readings"
-    nonumber: True
-  - title: "<ul><li><i>1984</i> by George Orwell</li><li><i>Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology</i> by M. Hildebrandt</li><li><i>Google's Selfish Ledger is an unsettling vision of Silicon Valley social engineering</i> by V. Savov</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Chapter Five: A Manifesto for Cyborgs</i> by Laura Forlano and Danya Glabau</li></ul>"
-    nonumber: True
-  - title: "<ul><li>Chapter 2: <i>A Universe of Data</i> by Jathan Sadowski</li><li><i>OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic</i> by Billy Perrigo</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Chapter 1: Nature and Space</i> by James C. Scott</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>How Eugenics Shaped Statistics</i> by Aubrey Clayton</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Why Are Certain Countries Poor? Dismantling Comparative Models of Development</i> by Andrew Brooks</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Hail the Maintainers</i> by L. Vinsel and A. Russel</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>The Deaths of Effective Altruism</i> by Leif Wenar</li><li><i>Chapter 4: The Precariousness of the STEM Job</i> by John D. Skrenty</li></ul>"
+  - title: "<ul><li>Theodore Porter, “Objectivity and Authority: How French Engineers Reduced Public Utility to Numbers,\" <i>Poetics Today</i></li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
-  - title: "<ul><li><i>Panopticism</i> by Michel Foucault</li><li><i>The Most Surveilled Place in America</i> by Gaby Del Valle</li></ul>"
+  - title: "<ul><li>George Orwell, <i>1984</i></li><li>Mireille Hildebrandt, “Introduction: Diana's OnLife World,” <i>Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology</i></li><li>Vlad Savov, “Google's Selfish Ledger is an unsettling vision of Silicon Valley social engineering,” <i>The Verge</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Contextual Integrity, Explained: A More Usable Privacy Definition</i> by Nathan Malkin</li></ul>"
+  - title: "<ul><li>Laura Forlano and Danya Glabau, “Chapter Five: A Manifesto for Cyborgs,” <i>Cyborg</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Digital Natives': How Medical and Indigenous Histories Matter for Big Data</i> by J. Radin</li><li><i>It's Official: Cars Are the Worst Product Category We Have Ever Reviewed For Privacy</i> by Jen Caltrider et al</li></ul>"
+  - title: "<ul><li>Jathan Sadowski, “Chapter 2: A Universe of Data,” <i>Too Smart: How Digital Capitalism is Extracting Data, Controlling Our Lives, and Taking Over the World</i></li><li>Billy Perrigo, “OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic,” <i>Time Magazine</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Machine Bias: There's software used across the country to predict future criminals. And it's biased against Blacks</i> by J. Angwin, J. Larson, S. Mattu, and L. Kirchner</li><li><i>A computer program used for bail and sentencing decisions was labeled biased against Blacks. It's actually not that clear</i> by A. Feller, E. Pierson, S. Corbett-Davies, and S. Goel</li></ul>"
+  - title: "<ul><li>James C. Scott, “Nature and Space,” <i>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, Chapter 4</i> by Virginia Eubanks</li></ul>"
+  - title: "<ul><li>Aubrey Clayton, “How Eugenics Shaped Statistics,” <i>Nautilus</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>A Mulching Proposal: Analysing and Improving an Algorithmic System for Turning the Elderly into High-Nutrient Slurry</i> by Os Keyes, et al.</li></ul>"
+  - title: "<ul><li>Andrew Brooks, “Why Are Certain Countries Poor? Dismantling Comparative Models of Development,” <i>Bullshit Comparisons</i></li></ul>"
     nonumber: True
-  - title: "No Readings"
+  - title: "<ul><li>Lee Vinsel and Andrew Russel, “Hail the maintainers,” <i>Aeon</i></li><li>Eisenhower Speech</li></ul>"
     nonumber: True
-  - title: "<ul><li><i>The Uncounted: Politics of Data in Global Health – Chapter 1</i> by Sara L. M. Davis</li></ul>"
-    nonumber: True
-  - title: "No Readings"
-    nonumber: True
-  - title: "<ul><li><i>It's Not Technology That's Disrupting Our Jobs</i> by L. Hyman</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Labor</i> by Kate Crawford</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Uncanny Valley</i> by A. Wiener</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>On racialized tech organizations and complaint: A goodbye to Google</i> by Alex Hanna</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>The lawmaker behind California’s vetoed AI bill, SB 1047, has harsh words for Silicon Valley</i> by Maxwell Zeff</li><li><i>California Governor Vetoes Sweeping A.I. Legislation</i> by Cecilia Kang</li></ul>"
-    nonumber: True
-  - title: "<ul><li><i>Anatomy of an AI System</i> by Kate Crawford and Vladan Joler</li></ul>"
+  - title: "<ul><li>Leif Wenar, “The Deaths of Effective Altruism,” <i>Wired</i></li><li>John D. Skrenty, “The Precariousness of the STEM Job,” <i>Wasted Education: How We Fail Our Graduates in Science, Technology, Engineering, and Math</i></li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
-  - title: "<ul><li><i>The Uselessness of AI Ethics</i> by Luke Munn</li><li><i>Brandy, Cigars, and Human Values</i> by Langdon Winner</li></ul>"
+  - title: "<ul><li>Michel Foucault, “Panopticism,” <i>Discipline and Punish</i></li><li>Gaby Del Valle, “The Most Surveilled Place in America,” <i>The Verge</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>About CPHS/OPHS and Guide to the IRB Review Process</i> from UC Berkeley Committee for Protection of Human Subjects</li></ul>"
+  - title: "<ul><li>Nathan Malkin, “Contextual Integrity, Explained: A More Usable Privacy Definition,” <i>IEEE Security & Privacy</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Moral Crumple Zones: Cautionary Tales in Human-Robot Interactions</i> by Madeleine Clare Elish</li><li><i>Spend 15 minutes playing with the MIT Moral Machine</i></li></ul>"
+  - title: "<ul><li>Joanna Radin, “Digital Natives: How Medical and Indigenous Histories Matter for Big Data,” <i>Osiris</i></li><li>Jen Caltrider et al, “It's Official: Cars Are the Worst Product Category We Have Ever Reviewed For Privacy,” <i>Mozilla Foundation</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Stop the Robot Apocalypse</i> by Amia Srinivasan</li></ul>"
+  - title: "<ul><li>J. Angwin, J. Larson, S. Mattu, and L. Kirchner, “Machine Bias: There's software used across the country to predict future criminals. And it's biased against Blacks,” <i>ProPublica</i></li><li>A. Feller, E. Pierson, S. Corbett-Davies, and S. Goel, “A computer program used for bail and sentencing decisions was labeled biased against Blacks. It's actually not that clear,” <i>Monkey Cage</i></li></ul>"
     nonumber: True
-  - title: "<ul><li><i>Feminist Data Manifest-No</i></li></ul>"
+  - title: "<ul><li>Virginia Eubanks, “The Allegheny Algorithm,” <i>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Os Keyes, et al. “A Mulching Proposal: Analysing and Improving an Algorithmic System for Turning the Elderly into High-Nutrient Slurry,” <i>CHI</i></li></ul>"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "<ul><li>Sara L. M. Davis, “Contested Indicators,” <i>The Uncounted: Politics of Data in Global Health</i></li></ul>"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "<ul><li>Louis Hyman, “It's Not Technology That's Disrupting Our Jobs,” <i>The New York Times</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Kate Crawford, “Labor,” <i>Atlas of AI</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>A. Wiener, “Uncanny Valley,” <i>n+1</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Alex Hanna, “On Racialized Tech Organizations and Complaint: A Goodbye to Google,” <i>Medium</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Maxwell Zeff, “The lawmaker behind California’s vetoed AI bill, SB 1047, has harsh words for Silicon Valley,” <i>Tech Crunch</i></li><li>Cecilia Kang, “California Governor Vetoes Sweeping A.I.,” <i>The New York Times</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Kate Crawford and Vladan Joler, “Anatomy of an AI System”</li></ul>"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "<ul><li>Luke Munn, “The Uselessness of AI Ethics,” <i>AI Ethics</i></li><li>Langdon Winner, “Brandy, Cigars, and Human Values,” <i>The Whale and the Reactor: A Search for Limits in an Age of High Technology</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>UC Berkeley Committee for Protection of Human Subjects, “About CPHS/OPHS”</li><li>UC Berkeley Committee for Protection of Human Subjects, “Guide to the IRB Review Process”</li></ul>"
+    nonumber: True
+  - title: "<ul><li>Madeleine Clare Elish, “Moral Crumple Zones: Cautionary Tales in Human-Robot Interactions,” <i>Engaging Science, Technology, and Society</i></li><li>MIT Moral Machine</li></ul>"
+    nonumber: True
+  - title: "<ul><li>Amia Srinivasan, “Stop the Robot Apocalypse,” <i>London Review of Books</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Feminist Data Manifest-No</li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
@@ -122,7 +122,7 @@ discussions:
     nonumber: True
   - title: "No Readings"
     nonumber: True
-  - title: "<ul><li><i>Reimagining Open Science Through a Feminist Lens</i> by Denisse Alejandra</li></ul>"
+  - title: "<ul><li>Denisse Alejandra, “Reimagining Open Science Through a Feminist Lens,” <i>Medium</i></li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
