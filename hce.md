@@ -78,10 +78,9 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
     <td>Implicit and explicit social organization of beings and knowledge into discrete categories governed by identifiable principles. Societies produce knowledge and do work (e.g. with technologies) by sorting, ordering, and classifying phenomena in the world. Classification systems inform social order and vice versa.</td>
     <td>
       <ul>
-        <li>Bettina Wulff and Google autocomplete</li>
-        <li>Risk and vulnerability assessment algorithms</li>
-        <li>Patients tracking their health through data apps and devices</li>
-        <li>Content moderation; Designing ML for identifying and eliminating hate speech in social media</li>
+        <li>Air Quality Data</li>
+        <li>Racial Classification in Apartheid South Africa</li>
+        <li>Risk and vulnerability assessment algorithms (VI-SPDAT, AFST)/li>
       </ul>
     </td>
     <td>
@@ -116,35 +115,21 @@ nation-state</li>
   </tr>
 
   <tr>
-  <td align="center">Identity / Positionality</td>
-  <td>Life-shaping and socially conditioned aspects of selfhood, such as gender, race, class, disability status, income, immigration status. Identity is not only about how you see yourself but also how society sees and treats you (positionality). Identity is co-produced with technology.</td>
-  <td>
-    <ul>
-      <li>Disparate impact of algorithms on different identities (facial recognition technologies; "Gaydar"; predictive policing)</li>
-      <li>Social media activism as a component in the civil rights struggle for the recognition and rights for people with particular identities</li>
-      <li>Self-tracking technologies built around particular concept of identity (self-aware, efficient)</li>
-    </ul>
-  </td>
-  <td>
-    <ul>
-      <li>Which aspects of identity are shifting with technology? Which are staying the same?</li>
-      <li>How does identity inform how people choose to interact with technologies?</li>
-      <li>How do social identities regulate who has access to what technological and political resources?</li>
-    </ul>
-  </td>
-</tr>
-
-
-  <tr>
   <td align="center">Labor</td>
-  <td>Physical or mental activity or exertion for the sake of sustenance of life, and the conditions in which this activity takes place and acquires value.</td>
+  <td>
+    <p>The socially organized use of human bodies and lifetime to reproduce the material conditions of human life</p>
+
+    <p>Asking about labor helps us look to sociotechnical processes of production, working conditions, and how labor is differentially valorized, exploited, and structured in various historical and sociotechnical contexts.</p>
+
+    <p>Labor is also a social agent - “organized labor” can be a political force that shapes the conditions under which labor takes place</p>
+</td>
   <td>
     <ul>
       <li>"Gig-economy" -- driving, delivering, on-demand
 dog-walking, etc.</li>
-      <li>Anti-Eviction Mapping Project</li>
+      <li>"Gig-economy" and platform-based labor</li>
+      <li>Invisible labor</li>
       <li>Amazon warehouse</li>
-      <li>Doctors and judges assisted by algorithms</li>
       <li>Imaginaries of robotics and the automation of certain types of labor</li>
     </ul>
   </td>
@@ -163,11 +148,12 @@ dog-walking, etc.</li>
 
   <tr>
   <td align="center">Narratives</td>
-  <td>Stories in time that express and explain things that matter to people: who they are, how the world is, how things work, what needs to be done, what futures are possible, desirable, or inevitable. 
+  <td>
+    <p>Stories in time that express and explain things that matter to people: who they are, how the world is, how things work, what needs to be done, what futures are possible, desirable, or inevitable.</p>
+    <p>Technology shapes and is shaped by narratives that are at-large in society.</p>
+    <p>Narratives can come to feel natural, but always need to be questioned.</p>
 
-Technology shapes and is shaped by narratives that are at-large in society.
-
-Narratives can come to feel natural, but always need to be questioned</td>
+  </td>
   <td>
 None
   </td>
@@ -241,38 +227,13 @@ None
   </td>
   </tr>
 
-
-  <tr>
-  <td align="center">Representation</td>
-  <td>The way in which one thing is made to "stand for" another. Technologies create representations of people and of social/natural phenomena that do particular work in the world and acquire a life of their own, refiguring the identity and agency of the represented person/phenomena.</td>
-  <td>
-    <ul>
-      <li>Pima Indian Diabetes Database</li>
-      <li>The "right to be forgotten" and the persistence of data</li>
-      <li>Ownership of genetic information</li>
-      <li>FSM and student protests against being treated as "information to be processed”</li>
-      <li>Technologies of the census and political representation</li>
-      <li>Measuring climate change and exercise of citizenship</li>
-    </ul>
-  </td>
-  <td>
-    <ul>
-      <li>How does data "stand for," "speak for" or "represent" a phenomenon in the world?</li>
-      <li>What work goes into creating the representation? Whose work?</li>
-      <li>Who creates the representation? With what goal?</li>
-      <li>What makes this representation authoritative? What gives it power?</li>
-      <li>How does the life of the representation relate to the life of the entity from which it was derived?</li>
-      <li>How is the way in which the technology represents a person connected to forms of political representation?</li>
-    </ul>
-  </td>
-  </tr>
-
-
   <tr>
   <td align="center">Sociotechnical Systems</td>
-  <td>A system in which the actions of people and technologies are intertwined such that it’s not possible to just isolate the “technical part” and deal with on its own.
+  <td>
+    <p>A system in which the actions of people and technologies are intertwined such that it’s not possible to just isolate the “technical part” and deal with on its own.</p>
+    <p>Large and highly complex sociotechnical systems distribute risks and responsibilities widely and unevenly, and are difficult to regulate. When they fail it is often difficult or even impossible to identify a single human or mechanical cause.</p>
 
-Large and highly complex sociotechnical systems distribute risks and responsibilities widely and unevenly, and are difficult to regulate. When they fail it is often difficult or even impossible to identify a single human or mechanical cause.</td>
+  </td>
   <td>
     <ul>
       <li>Self-driving cars; nuclear power plants; airplanes; streetlights</li>
@@ -293,11 +254,12 @@ Large and highly complex sociotechnical systems distribute risks and responsibil
 
   <tr>
   <td align="center">Vulnerability</td>
-  <td>The condition of being exposed to others and to the risk of injury. Vulnerability is central to personhood and the human condition. It is part of every social relationship, and is at the heart of ethics. 
+  <td>
+    <p>The condition of being exposed to others and to the risk of injury. Vulnerability is central to personhood and the human condition. It is part of every social relationship, and is at the heart of ethics.</p>
+    <p>Vulnerability is differentially distributed in society: it varies by positionality (race, class, gender, immigration, disability…).</p>
+    <p>Technology shapes who becomes vulnerable and how.</p>
 
-Vulnerability is differentially distributed in society: it varies by positionality (race, class, gender, immigration, disability…). 
-
-Technology shapes who becomes vulnerable and how</td>
+  </td>
   <td>
     None
   </td>

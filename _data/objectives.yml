@@ -1,46 +1,47 @@
 objectives:
-  - title: ""
+  - title: "<ul><li>Use a classic example (bridges) to see how mundane technologies are not just neutral tools, but organize social relationships and exercise power.</li><li>Learn the basics of the HCE toolkit. This is a set of analytical concepts that make sense of how science and technology interact with society.</li><li>Practice applying the HCE toolkit in a contemporary, real-world context: price-fixing rent algorithms.</li><li>See how the toolkit helps identify stakes and ethical issues.</li></ul>"
     nonumber: True
     rowspan: 2
-  - title: ""
+  - title: "<ul><li>Understand that data is made by people for specific purposes and reflects selective choices.</li><li>Use classification and representation as tools to think about what data includes, what it says, and what is left out.</li><li>Build a classification system and think critically about how it can reinforce inequality or harmful assumptions.</li><li>Explore how identity can shift over time in response to how people are categorized and known through datafied technologies.</li><li>Discuss how data often travels beyond and obscures its original context.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: ""
+  - title: "<ul><li>Explain how scientific knowledge is produced by a body of researchers and other participants through social processes rather than simply discovered.</li><li>Describe the role that scientific communities play in shaping knowledge.</li><li>Apply the concept of scientific paradigm to complicate simplified timelines that distort the collective and contextual nature of scientific change.</li><li>Analyze how science comes to be viewed as authoritative within specific historical and social contexts.</li><li>See how the concept of objectivity serves as a method for generating social trust in democratic societies.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: ""
+  - title: "<ul><li>Analyze dominant cultural narratives about data and their influence on society.</li><li>Interpret stories about data from a humanistic perspective, including dystopian and utopian themes.</li><li>Examine how visions of the future shape present-day behaviors and technologies.</li><li>Critically evaluate who benefits from prevailing narratives about data and its role in the world.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: ""
+  - title: "<ul><li>Unpack the historical origins of statistics and their connection to state power and governance.</li><li>Recognize how statistical practices emerged from efforts to manage populations and resources.</li><li>Critically reflect on the ethical implications of using statistical methods and population data shaped by this history.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: ""
-    rowspan: 3
-  - title: ""
+  - title: "<ul><li>Analyze the historical and cultural development of Silicon Valley and its global influence on data and technology.</li><li>Examine the roles of state, military, and venture capital funding in shaping Silicon Valley.</li><li>Critically evaluate dominant narratives about Silicon Valley’s origins and success.</li><li>Explore how cultural ideals like disruption and founder mythology influence Silicon Valley's political and economic power.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Understand how surveillance operates as a form of power in a datafied world.</li><li>Analyze the unequal distribution of visibility and its impact on different social groups.</li><li>Analyze the limitations of contemporary privacy laws by examining their historical origins.</li><li>Understand more collective and contextual approaches to data, privacy, and protection.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Understand the most important ethical stakes of automated risk-assessment and decision-making systems.</li><li>Analyze the limitations of “bias” and “fairness” as frameworks for addressing the ethical stakes of these systems.</li><li>Examine the legal, political, and social contexts that shape algorithmic governance.</li><li>Survey the deeper histories and values embedded in algorithmic systems and their impacts.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Understand how global health data is made, circulated, and used to guide interventions.</li><li>Analyze the role of major institutions in shaping definitions of health and well-being.</li><li>See how grassroots movements, like the AIDS movement, challenge and reshape data practices.</li><li>Reflect on the power dynamics behind who defines, collects, and is represented by data on health and well-being.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Survey the diverse forms of labor that support data systems and the digital economy.</li><li>Analyze how common automation narratives obscure the human work behind data and technology.</li><li>Examine power dynamics and hierarchies in gig work, content moderation, and tech workplaces.</li><li>Explore how workers respond to and resist exploitation through activism, legal action, and protest.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Analyze the culture of the tech workplace, including expectations about work-life balance, role models, and gender norms.</li><li>Identify the historical and structural barriers to diversity and inclusion in the tech industry.</li><li>Bring into view the experiences and contributions of marginalized tech workers, including Latinx, African American, and South Asian communities.</li><li>Analyze the invisible labor and environmental costs behind digital technologies and global supply chains.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Understand the origins and purposes of institutional research ethics frameworks like the Common Rule and IRBs.</li><li>Practice analyzing the assumptions and limitations of traditional ethical guidelines in today’s data-driven research landscape.</li><li>Examine how professional codes of conduct intersect with broader ethical challenges in data work.</li><li>Imagine alternative approaches to ethical practice beyond compliance-based models.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "<ul><li>Get familiar with the traditional Western moral philosophical frameworks and analyze their assumptions about agency and the good life.</li><li>Evaluate the strengths and weaknesses of these frameworks’ embrace of abstraction.</li><li>Critically assess the ethical frameworks informing dominant approaches to AI Ethics, such as value alignment.</li><li>Begin to think about ethics as a situated, collective, and ongoing practice.</li></ul>"
     nonumber: True
     rowspan: 3
-  - title: " "
+  - title: "Thanksgiving Break"
     nonumber: True
-    rowspan: 2
+    rowspan: 3
  
+  - title: "<ul><li>Survey the various appeals to “openness” in contemporary science (open source, open data, open methods) and understand the problems they aim to solve.</li><li>Examine the limits and challenges of open science, and consider who openness serves in practice.</li><li>Survey contemporary discussions about reproducibility and the replication crisis, and examine competing approaches to framing what’s at stake in them.</li><li>Understand robust scientific practice as more than simply methodological, but as a situated and collective effort.</li></ul>"
+    nonumber: True
+    rowspan: 2
