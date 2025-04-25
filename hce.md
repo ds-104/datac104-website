@@ -80,7 +80,7 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
       <ul>
         <li>Air Quality Data</li>
         <li>Racial Classification in Apartheid South Africa</li>
-        <li>Risk and vulnerability assessment algorithms (VI-SPDAT, AFST)/li>
+        <li>Risk and vulnerability assessment algorithms (VI-SPDAT, AFST)</li>
       </ul>
     </td>
     <td>
@@ -113,6 +113,7 @@ nation-state</li>
       </ul>
     </td>
   </tr>
+
 
   <tr>
   <td align="center">Labor</td>
@@ -204,12 +205,9 @@ None
   <td>The asymmetric capacity of an agent to structure or alter the behavior and decisions of other agents, populations, or systems. Technological (computational) power is intertwined with political power.</td>
   <td>
     <ul>
-      <li>Indian Aadhaar biometric system</li>
-      <li>Chinese social credit score</li>
-      <li>Facebook, misinformation, and violence in Sri Lanka, Myanmar</li>
-      <li>Anti-Eviction Mapping Project</li>
-      <li>Media/data literacy</li>
-      <li>Panopticon, Surveillance and predictive policing / Vision technologies</li>
+      <li>Robert Moses's Overpasses</li>
+      <li>Population statistics, biopower, and eugenics</li>
+      <li>Panopticon, Surveillance and predictive policing</li>
     </ul>
   </td>
   <td>
