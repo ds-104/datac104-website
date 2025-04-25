@@ -45,7 +45,7 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
     <tr>
       <th>Tool</th>
       <th>Definition</th>
-      <th>Case Studies</th>
+      <th>Exemplary Cases</th>
       <th>Guiding Questions</th>
     </tr>
   </thead>
@@ -58,7 +58,7 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
         <li>Algorithmic decision-making (COMPAS, Gig economy laborers)</li>
         <li>Real-time interplay of human and mechanical agency (autonomous vehicles, pilots)</li>
         <li>Patients tracking their health through data apps and devices</li>
-        <li>Google Walkout</li>
+        <li>Google Walkout; unionization</li>
         <li>Disruptive innovation and the tech entrepreneur agent</li>
       </ul>
     </td>
@@ -149,8 +149,6 @@ nation-state</li>
 </td>
   <td>
     <ul>
-      <li>"Gig-economy" -- driving, delivering, on-demand
-dog-walking, etc.</li>
       <li>"Gig-economy" and platform-based labor</li>
       <li>Invisible labor</li>
       <li>Amazon warehouse</li>
