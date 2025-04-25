@@ -67,7 +67,9 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
         <li>How is human agency delegated to a technology?</li>
         <li>How does the delegation affect responsibility?</li>
         <li>What kinds of agency is amplified and what kind is constrained by the technology?</li>
-        <li>In what ways?</li>
+        <ul>
+          <li>In what ways?</li>
+        </ul>
         <li>What kinds of social structures does the specific form of agency aim to challenge?</li>
       </ul>
     </td>
@@ -114,6 +116,27 @@ nation-state</li>
     </td>
   </tr>
 
+  <tr>
+  <td align="center">Identity / Positionality</td>
+  <td>
+    <p>Life-shaping and socially conditioned aspects of selfhood, such as gender, race, class, disability status, income, immigration status. Identity is not only about how you see yourself but also how society sees and treats you (positionality). Identity is co-produced with technology.</p>
+</td>
+  <td>
+    <ul>
+      <li>Disparate impact of algorithms on different identities (facial recognition technologies; predictive policing)</li>
+      <li>Social media activism as a component in the civil rights struggle for the recognition and rights for people with particular identities</li>
+      <li>Self-tracking technologies built around particular concept of identity (self-aware, efficient)</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>Which aspects of identity are shifting with technology? Which are staying the same?</li>
+      <li>How does identity inform how people choose to interact with technologies?</li>
+      <li>How do social identities regulate who has access to what technological and political resources?</li>
+    </ul>
+  </td>
+</tr>
+
 
   <tr>
   <td align="center">Labor</td>
@@ -131,14 +154,13 @@ dog-walking, etc.</li>
       <li>"Gig-economy" and platform-based labor</li>
       <li>Invisible labor</li>
       <li>Amazon warehouse</li>
-      <li>Imaginaries of robotics and the automation of certain types of labor</li>
+      <li>Narratives of robotics and the automation of certain types of labor</li>
     </ul>
   </td>
   <td>
     <ul>
       <li>Which aspects of labor are shifting with technology? Which are staying the same?</li>
       <li>How are forms of work and production structured in the datafied world?</li>
-      <li>What kinds of agency is amplified and what kind is constrained by the technology?</li>
       <li>What is the relationship between work done by people and work done by machines?</li>
       <li>How are the rewards for work products allocated? With what consequences?</li>
       <li>What kind of labor is considered valuable and what kind is not? What role does technology play in this valorization?</li>
@@ -176,7 +198,7 @@ None
 
   <tr>
   <td align="center">Performativity</td>
-  <td>The way in which systems for organizing knowledge (language, concepts, metaphors, models, classification systems, automated decision-making systems) bring into being the very phenomena they set out to describe.</td>
+  <td>The way that actions that describe the world (language, concepts, metaphors, models, classification systems, measurement systems, predictions, automated decision-making systems) can shape and even bring into being the very phenomena they set out to describe.</td>
   <td>
     <ul>
       <li>Racial classification systems</li>
@@ -226,6 +248,30 @@ None
   </tr>
 
   <tr>
+  <td align="center">Representation</td>
+  <td>The way in which one thing is made to "stand for" another. Technologies create representations of people and of social/natural phenomena that do particular work in the world and acquire a life of their own, refiguring the identity and agency of the represented person/phenomena.</td>
+  <td>
+    <ul>
+      <li>Pima Indian Diabetes Database</li>
+      <li>Ownership of genetic information</li>
+      <li>FSM and student protests against being treated as "information to be processed”</li>
+      <li>Technologies of the census and political representation</li>
+      <li>Measuring climate change and exercise of citizenship</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>How does data "stand for," "speak for" or "represent" a phenomenon in the world?</li>
+      <li>What work goes into creating the representation? Whose work?</li>
+      <li>Who creates the representation? With what goal?</li>
+      <li>What makes this representation authoritative? What gives it power?</li>
+      <li>How does the life of the representation relate to the life of the entity from which it was derived?</li>
+      <li>How is the way in which the technology represents a person connected to forms of political representation?</li>
+    </ul>
+  </td>
+  </tr>
+
+  <tr>
   <td align="center">Sociotechnical Systems</td>
   <td>
     <p>A system in which the actions of people and technologies are intertwined such that it’s not possible to just isolate the “technical part” and deal with on its own.</p>
@@ -243,8 +289,8 @@ None
   <td>
     <ul>
       <li>How do humans interact with a particular technology?</li>
-      <li>How does the delegation affect responsibility?</li>
-      <li>How does a sociotechnical system come about and change over time? Through which pressures and mechanisms?</li>
+      <li>How is risk and responsibility distributed in a sociotechnical system? Whose agency is affected?</li>
+      <li>How does a sociotechnical system come about and change over time? Through which pressures and mechanism?</li>
     </ul>
   </td>
   </tr>
