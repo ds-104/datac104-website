@@ -95,6 +95,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_index = 0 -%}
     {%- assign homework_index = 0 -%}
     {%- assign project_index = 0 -%}
+    {%- assign week_index = 0 -%}
 
     {%- assign objectives_index = 0 -%}
 
@@ -108,6 +109,8 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_rowspan = 0 -%}
     {%- assign homework_rowspan = 0 -%}
     {%- assign project_rowspan = 0 -%}
+    {%- assign week_rowspan = 0 -%}
+
 
     {%- assign objectives_rowspan = 3 -%}
 
@@ -126,6 +129,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_number = site.data.syllabus.starting_discussion_number -%}
     {%- assign homework_number = site.data.syllabus.starting_homework_number -%}
     {%- assign project_number = site.data.syllabus.starting_project_number -%}
+    {%- assign default_week_rowspan = site.data.syllabus.default_week_rowspan -%}
 
     {%- comment -%}
     - These are the default rowspans we assume if you don't provide one in
@@ -198,55 +202,23 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- else -%}
       {%- assign project_rowspan = project_rowspan | plus:-1 -%}
       {%- endif -%}
-      <!-- {%- comment -%}
-      - Render the week number column.
-      - We use forloop.first to render the week number only once per week.
-      - We use the "size" field of the week hash to see how many days we're
-      going to display in the week, which tells us how many rows the week
-      number needs to span.
-      - We use the "name" field of the week hash to give us a unique week
-      number (between 1 and 52), which gives each week number box a unique
-      id, and thus allows us to implement the "jump to current week"
-      functionality.
-      {%- endcomment -%}
-      {%- if forloop.first -%}
-      <td class="{{ is_even }}" rowspan="{{ week.size }}" id="week-{{ week.name }}">{{ week_number }}</td>
-      {%- endif -%} -->
 
-      {%- if forloop.first -%}
-       <td class="{{ is_even }}" rowspan="{{ week.size }}" id="week-{{ week.name }}">{{ week_number }}</td>
-       {%- endif -%}
-
-      {%- comment -%}
-      - There are four chunks of code below this, for rendering the
-      lecture/readings/discussion/homework/project columns. For
-      simplicity, the chunks of code are identical (only swapping
-      out the column names); I highly recommend not changing one
-      of them individually. If you want to customize a column, you
-      should be doing that in lecture.html, discussion.html,
-      homework.html, or project.html.
-      - In each chunk, we check if the rowspan counter has hit 0.
-      If so, then it's time to render a new box.
-      - Using the index counter, we access the next element in the
-      yml file for rendering.
-      - If the element in the yml file has a custom rowspan, we note that.
-      Otherwise, we use the default rowspan.
-      - Now we render a new box by using one of the _includes. We pass in:
-      - element: The data from the yml file
-      - number: The number counter from this code
-      - rowspan: The rowspan (custom or default) from this code
-      - is_even: The alternating color setting from this code
-      - We reset the rowspan counter to start counting down from the new
-      rowspan, so that when we hit 0, we'll render the next box.
-      - We increment the index counter so that we can render the next
-      element in the yml array next time.
-      - If the "nonumber" field is True in the yml for this element, then
-      we don't increment the number counter. (e.g. if we have a box with
-      "no lecture", we don't need to increment the lecture number).
-      - If the rowspan counter did not hit 0, we just decrement the rowspan
-      counter and keep looping through days/weeks until it's time to render
-      a new box.
-      {%- endcomment -%}
+      {%- if week_rowspan == 0 -%}
+      {%- assign week_element = site.data.week.weeks[week_index] -%}
+      {%- if week_element.rowspan -%}
+      {%- assign new_rowspan = week_element.rowspan -%}
+      {%- else -%}
+      {%- assign new_rowspan = default_week_rowspan -%}
+      {%- endif -%}
+      {%- include discussion.html element=week_element rowspan=new_rowspan is_even=is_even -%}
+      {%- assign week_rowspan = new_rowspan | plus:-1 -%}
+      {%- assign week_index = week_index | plus:1 -%}
+      {%- unless week_element.nonumber -%}
+      {%- assign week_number = week_number | plus:1 -%}
+      {%- endunless -%}
+      {%- else -%}
+      {%- assign week_rowspan = week_rowspan | plus:-1 -%}
+      {%- endif -%}
       
       {%- comment -%}
        - Render the discussion column.
