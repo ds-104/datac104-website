@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Data C104
 description: Data C104 at UC Berkeley
-baseurl: '/datac104-website' # the subpath of your site, e.g. /blog
-url: 'https://ds-104.github.io'
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'http://data104.org'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 staff_email: 'datac104@berkeley.edu'
 
