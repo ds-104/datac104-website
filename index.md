@@ -65,8 +65,6 @@ This website contains materials from a past semester. Information, assignments, 
 
 ## Course Calendar
 
-[Skip to current week](#week-{{ 'now' | date: '%U' }}){: .btn .btn-outline .fs-3 }
-
 <div>
 {%- include syllabus.html -%}
 </div>
