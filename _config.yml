@@ -45,7 +45,7 @@ aux_links:
     - '#'
   Source Code on GitHub:
     - 'https://github.com/ds-104/datac104-website'
-footer_content:
+footer_content: true
 
 # Collections for website data
 collections:
