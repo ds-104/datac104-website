@@ -44,7 +44,7 @@ module Jekyll
       url: :validate_clean_url,
       # baseurl: :validate_semester_format,
       # course_department: :inclusion_validator,
-      color_scheme: :inclusion_validator
+      # color_scheme: :inclusion_validator
     }.freeze
 
     attr_accessor :config, :errors

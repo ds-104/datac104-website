@@ -19,6 +19,7 @@ baseurl: '/datac104-website' # the subpath of your site, e.g. /blog
 url: 'https://ds-104.github.io'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 staff_email: 'evanbot@berkeley.edu'
+course_department: dsus
 
 # Heading settings
 lecture:
@@ -87,7 +88,7 @@ compress_html:
 plugins:
   - jekyll-seo-tag
 
-color_scheme: wider
+# color_scheme: wider
 
 callouts:
   warning:
