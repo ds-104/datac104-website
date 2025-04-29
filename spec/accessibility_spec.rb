@@ -48,19 +48,19 @@ end
 
 ALL_PAGES.each do |path|
   describe "#{path} is accessible", :js, type: :feature do
-    context 'when light mode' do
+    context 'when wider mode' do
       before do
         visit(path)
-        page.execute_script('jtd.setTheme("light")')
+        page.execute_script('jtd.setTheme("wider")')
       end
 
       include_context 'a11y tests'
     end
 
-    context 'when dark mode' do
+    context 'when dark_wider mode' do
       before do
         visit(path)
-        page.execute_script('jtd.setTheme("dark")')
+        page.execute_script('jtd.setTheme("dark_wider")')
       end
 
       include_context 'a11y tests'
