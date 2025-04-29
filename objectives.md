@@ -1,3 +1,22 @@
+---
+layout: page
+title: Learning Objectives
+nav_order: 3
+description: >-
+    Learning goals for the course.
+---
+
+{%- if site.under_construction -%}
+<p class="warning">
+This site is under construction. All dates and policies are tentative until this message goes away.
+</p>
+{%- endif -%}
+
+{%- if site.outdated -%}
+<p class="warning">
+This website contains materials from a past semester. Information, assignments, and announcements may no longer be relevant. Please refer to the <a href="https://template.cs161.org">current semester's site</a> for up-to-date content.
+</p>
+{%- endif -%}
 {%- comment -%}
 - This file auto-generates the syllabus with all the days of the semester.
 - You should not need to touch anything in here unless you're rewriting
@@ -49,10 +68,8 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- endcomment -%}
     <thead>
     <th style="width:{{ site.data.syllabus.unit_width }}">Unit</th>
-    <th style="width:{{ site.data.syllabus.week_width }}">Week</th>
-    <th style="width:{{ site.data.syllabus.date_width }}">Date</th>
-    <th style="width:{{ site.data.syllabus.lecture_width }}">Lecture</th>
-    <th style="width:{{ site.data.syllabus.readings_width }}">Readings</th>
+    <th style="width:{{ site.data.syllabus.date_width }}">Week</th>
+    <th style="width:{{ site.data.syllabus.objective_width }}">Learning Objectives</th>
     </thead>
 
     {%- comment -%}
@@ -80,6 +97,8 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign project_index = 0 -%}
     {%- assign week_index = 0 -%}
 
+    {%- assign objectives_index = 0 -%}
+
     {%- comment -%}
     - Initialize the rowspan counters.
     - For multi-row boxes (e.g. projects that span several weeks), we need to keep
@@ -91,6 +110,9 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign homework_rowspan = 0 -%}
     {%- assign project_rowspan = 0 -%}
     {%- assign week_rowspan = 0 -%}
+
+
+    {%- assign objectives_rowspan = 3 -%}
 
     {%- comment -%}
     - Initialize the number counters.
@@ -107,7 +129,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign discussion_number = site.data.syllabus.starting_discussion_number -%}
     {%- assign homework_number = site.data.syllabus.starting_homework_number -%}
     {%- assign project_number = site.data.syllabus.starting_project_number -%}
-    {%- assign week_number = site.data.syllabus.starting_week_number -%}
+    {%- assign default_week_rowspan = site.data.syllabus.default_week_rowspan -%}
 
     {%- comment -%}
     - These are the default rowspans we assume if you don't provide one in
@@ -118,7 +140,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     {%- assign default_discussion_rowspan = site.data.syllabus.default_discussion_rowspan -%}
     {%- assign default_homework_rowspan = site.data.syllabus.default_homework_rowspan -%}
     {%- assign default_project_rowspan = site.data.syllabus.default_project_rowspan -%}
-    {%- assign default_week_rowspan = site.data.syllabus.default_week_rowspan -%}
+    {%- assign default_objectives_rowspan = site.data.syllabus.default_objectives_rowspan -%}
 
     {%- for week in sorted_dates -%}
 
@@ -161,7 +183,7 @@ sorted_dates is an array, where each element is a hash with three fields:
     <tr>
       {%- comment -%}
       - Render the project column.
-      - For simplicity, the code for each column should be kept identical only
+      - For simplicity, the code for each column should be kept identical (only
       swapping out the column names.
       {%- endcomment -%}
       {%- if project_rowspan == 0 -%}
@@ -181,12 +203,6 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- assign project_rowspan = project_rowspan | plus:-1 -%}
       {%- endif -%}
 
-
-      {%- comment -%}
-      - Render the week column.
-      - For simplicity, the code for each column should be kept identical (only
-      swapping out the column names.
-      {%- endcomment -%}
       {%- if week_rowspan == 0 -%}
       {%- assign week_element = site.data.week.weeks[week_index] -%}
       {%- if week_element.rowspan -%}
@@ -203,115 +219,28 @@ sorted_dates is an array, where each element is a hash with three fields:
       {%- else -%}
       {%- assign week_rowspan = week_rowspan | plus:-1 -%}
       {%- endif -%}
-
+      
       {%- comment -%}
-      - Render the date column.
-      - The percent formatters determine how the date is displayed.
-      See this link for what percent formatters are available:
-      https://shopify.github.io/liquid/filters/date/
-      - The border-hack exists because Just the Docs is very dumb
-      and insists on clearing borders when td:first-of-type. This affects
-      the date column only, and hopefully this hack doesn't require any
-      touching to keep working (it just re-adds the border back).
-      {%- endcomment -%}
-      <td class="{{ is_even }} border-hack">{{ day | date: '%a<br>%b %d' }}</td>
-
-      {%- comment -%}
-      - There are four chunks of code below this, for rendering the
-      lecture/readings/discussion/homework/project columns. For
-      simplicity, the chunks of code are identical (only swapping
-      out the column names); I highly recommend not changing one
-      of them individually. If you want to customize a column, you
-      should be doing that in lecture.html, discussion.html,
-      homework.html, or project.html.
-      - In each chunk, we check if the rowspan counter has hit 0.
-      If so, then it's time to render a new box.
-      - Using the index counter, we access the next element in the
-      yml file for rendering.
-      - If the element in the yml file has a custom rowspan, we note that.
-      Otherwise, we use the default rowspan.
-      - Now we render a new box by using one of the _includes. We pass in:
-      - element: The data from the yml file
-      - number: The number counter from this code
-      - rowspan: The rowspan (custom or default) from this code
-      - is_even: The alternating color setting from this code
-      - We reset the rowspan counter to start counting down from the new
-      rowspan, so that when we hit 0, we'll render the next box.
-      - We increment the index counter so that we can render the next
-      element in the yml array next time.
-      - If the "nonumber" field is True in the yml for this element, then
-      we don't increment the number counter. (e.g. if we have a box with
-      "no lecture", we don't need to increment the lecture number).
-      - If the rowspan counter did not hit 0, we just decrement the rowspan
-      counter and keep looping through days/weeks until it's time to render
-      a new box.
-      {%- endcomment -%}
-
-      {%- comment -%}
-      - Render the lecture column.
-      - For simplicity, the code for each column should be kept identical (only
-      swapping out the column names.
-      {%- endcomment -%}
-      {%- if lecture_rowspan == 0 -%}
-      {%- assign lecture_element = site.data.lectures.lectures[lecture_index] -%}
-      {%- if lecture_element.rowspan -%}
-      {%- assign new_rowspan = lecture_element.rowspan -%}
-      {%- else -%}
-      {%- assign new_rowspan = default_lecture_rowspan -%}
-      {%- endif -%}
-      {%- include lecture.html element=lecture_element number=lecture_number rowspan=new_rowspan is_even=is_even  -%}
-      {%- assign lecture_rowspan = new_rowspan | plus:-1 -%}
-      {%- assign lecture_index = lecture_index | plus:1 -%}
-      {%- unless lecture_element.nonumber -%}
-      {%- assign lecture_number = lecture_number | plus:1 -%}
-      {%- endunless -%}
-      {%- else -%}
-      {%- assign lecture_rowspan = lecture_rowspan | plus:-1 -%}
-      {%- endif -%}
-
-      {%- comment -%}
-      - Render the discussion column.
-      - For simplicity, the code for each column should be kept identical (only
-      swapping out the column names.
-      {%- endcomment -%}
-      {%- if discussion_rowspan == 0 -%}
-      {%- assign discussion_element = site.data.discussions.discussions[discussion_index] -%}
-      {%- if discussion_element.rowspan -%}
-      {%- assign new_rowspan = discussion_element.rowspan -%}
-      {%- else -%}
-      {%- assign new_rowspan = default_discussion_rowspan -%}
-      {%- endif -%}
-      {%- include discussion.html element=discussion_element rowspan=new_rowspan is_even=is_even -%}
-      {%- assign discussion_rowspan = new_rowspan | plus:-1 -%}
-      {%- assign discussion_index = discussion_index | plus:1 -%}
-      {%- unless discussion_element.nonumber -%}
-      {%- assign discussion_number = discussion_number | plus:1 -%}
-      {%- endunless -%}
-      {%- else -%}
-      {%- assign discussion_rowspan = discussion_rowspan | plus:-1 -%}
-      {%- endif -%}
-
-      <!-- {%- comment -%}
-      - Render the homework column.
-      - For simplicity, the code for each column should be kept identical (only
-      swapping out the column names.
-      {%- endcomment -%}
-      {%- if homework_rowspan == 0 -%}
-      {%- assign homework_element = site.data.homeworks.homeworks[homework_index] -%}
-      {%- if homework_element.rowspan -%}
-      {%- assign new_rowspan = homework_element.rowspan -%}
-      {%- else -%}
-      {%- assign new_rowspan = default_homework_rowspan -%}
-      {%- endif -%}
-      {%- include homework.html element=homework_element number=homework_number rowspan=new_rowspan is_even=is_even  -%}
-      {%- assign homework_rowspan = new_rowspan | plus:-1 -%}
-      {%- assign homework_index = homework_index | plus:1 -%}
-      {%- unless homework_element.nonumber -%}
-      {%- assign homework_number = homework_number | plus:1 -%}
-      {%- endunless -%}
-      {%- else -%}
-      {%- assign homework_rowspan = homework_rowspan | plus:-1 -%}
-      {%- endif -%} -->
+       - Render the discussion column.
+       - For simplicity, the code for each column should be kept identical (only
+       swapping out the column names.
+       {%- endcomment -%}
+       {%- if discussion_rowspan == 0 -%}
+       {%- assign discussion_element = site.data.objectives.objectives[discussion_index] -%}
+       {%- if discussion_element.rowspan -%}
+       {%- assign new_rowspan = discussion_element.rowspan -%}
+       {%- else -%}
+       {%- assign new_rowspan = default_discussion_rowspan -%}
+       {%- endif -%}
+       {%- include discussion.html element=discussion_element number=discussion_number rowspan=new_rowspan is_even=is_even -%}
+       {%- assign discussion_rowspan = new_rowspan | plus:-1 -%}
+       {%- assign discussion_index = discussion_index | plus:1 -%}
+       {%- unless discussion_element.nonumber -%}
+       {%- assign discussion_number = discussion_number | plus:1 -%}
+       {%- endunless -%}
+       {%- else -%}
+       {%- assign discussion_rowspan = discussion_rowspan | plus:-1 -%}
+       {%- endif -%}
 
     </tr>
     {%- endfor -%}

@@ -88,6 +88,7 @@ iframe {
   .side-bar {
     top: 0;
     left: 0;
+    width: 20%;
   }
 
   // Add whitespace between header and start of content (site title, logo)
@@ -181,6 +182,13 @@ iframe {
 
 
 // End UCB header fixes
+
+// Align text to the top for units
+td[class^="proj"] {
+  text-align: center;
+  vertical-align: top;
+  padding-top: 15px;
+}
 
 // Color scheme for projects
 td.proj1 {

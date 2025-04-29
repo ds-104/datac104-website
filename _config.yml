@@ -15,15 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: Data C104
 description: Data C104 at UC Berkeley
-baseurl: '/datac104-website' # the subpath of your site, e.g. /blog
-url: 'https://ds-104.github.io'
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'http://data104.org'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
-staff_email: 'evanbot@berkeley.edu'
+staff_email: 'datac104@berkeley.edu'
 course_department: dsus
 
 # Heading settings
 lecture:
-  time: "2:00 - 3:00"
+  time: "3:00 - 4:00"
   location:
       name: "Dwinelle 155"
       link: ""
@@ -44,7 +44,7 @@ aux_links:
   Dark Mode:
     - '#'
   Source Code on GitHub:
-    - 'https://github.com/cs161-staff/course-site-template'
+    - 'https://github.com/ds-104/datac104-website'
 footer_content:
 
 # Collections for website data
@@ -109,7 +109,7 @@ enable_copy_code_button: true
 
 # CS 188 custom config variable
 # Set this to true at the start of semesters to show a warning on the homepage
-under_construction: true
+under_construction: false
 
 # Set this to true to show a warning telling people on the waitlist to check FAQs
 waitlist_warning: false

@@ -42,13 +42,91 @@
 #     rowspan: 1
 
 homeworks:
-  - title: "Do Artifacts Have Politics by Langdon Winner"
+  - title: "No Recommended Readings"
     nonumber: True
-    # released: True
-    # sols_released: False
-    # regular_video: ""
-    # examprep_video: ""
-  - title: "Introductory Essay by Donald MacKenzie and Judy Wajcman"
+  - title: "No Recommended Readings"
     nonumber: True
-  - title: "No Readings"
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Big Data is People! by Rebecca Lemov <br> Me and My Data by Sarah Igo <br> Data as Property? by Salome Viljoen <br> Why Paying Individual People for Their Health Data is a Bad Idea by Barbara Prainsack and Nicholas Forgó <br> The NIH Is Bypassing Tribal Sovereignty to Harvest Genetic Data From Native Americans by T. Hansen and J. Keeler <br> The CARE Principles for Indigenous Data Governance by S.R. Carroll et al."
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "How Reason Almost Lost Its Mind: The Strange Career of Cold War Rationality by Paul Erickson, et al<br>Rules: A Short History of What We Live By by Lorraine Daston<br>Hypernudge: Big Data as a mode of regulation by design by Karen Yeung"
+    nonumber: True
+  - title: "The Whiteness of AI by S. Cave and K. Dihal"
+    nonumber: True
+  - title: "Common Cyborg by Jillian Weise <br> A Manifesto for Cyborgs: Science, Technology, and Socialist Feminism in the 1980s by D. Haraway <br> Digital Hyperconnectivity and the Self by Rogers Brubaker <br> The Quantified Self: Reverse Engineering by G. Wolf <br> Introduction by Nikolas Rose"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Historical Tour of Silicon Valley in Pictures by Piero Scaruffi"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "NSA Whistleblower Edward Snowden: I Don’t Want to Live in a Society That Does These Sorts of Things by The Guardian <br> I Helped Destroy People by Janet Reitman"
+    nonumber: True
+  - title: "Understanding Privacy: Privacy: A Concept in Disarray by Daniel J. Solove"
+    nonumber: True
+  - title: "In Post Roe v. Wade Era, Mozilla Labels 18 of 25 Period and Pregnancy Tracking Tech with Privacy Not Included Warning by Mozilla Blog <br>Opinion of the Court by Timothy Ivory Carpenter, Petitioner v. United States <br>Ripple's Chairman Funded a 1,000 Camera Surveillance Network. Now SFPD Can Watch It by Issie Lapowski"
+    nonumber: True
+  - title: "Big Data Surveillance: The Case of Policing by Sarah Brayne <br> Inside the Suspicion Machine by Eva Constantaras et al."
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "The Science of the Lambs: Chernobyl and the Cumbrian Sheep Farmers by Harry Collins and Trevor Pinch <br> Evictor Structures: Erin McElroy and Azad Amir-Ghassemi on Fighting Displacement by Logic Magazine <br> Anti-Eviction Mapping Project (select three mapping projects) <br> The Feds Are Watching: A History of Resisting Anti-Black Surveillance by Simone Browne"
+    nonumber: True
+  - title: "Metrics of the Global Sovereign: Numbers and Stories in Global Health by Vincanne Adams <br>An Anthropologist Among the Demographers: Assembling Data in Survey Research Worlds by C. Biruk <br> Materializing Clean Data in the Field by C. Biruk"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Digital Piecework by Veena Dubal <br>A World Without Work? by Aaron Benanav"
+    nonumber: True
+  - title: "Gender Binary by E. Ullman"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Oil Is the New Data by Zero Cool"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Data Science Ethos Lifecycle: Interplay of Ethical Thinking and Data Science Practice by Margo Boenig-Liptsin, Anissa Tanweer, and Ari Edmundson <br> Will Computer Science Have an Ethical Reckoning? by John Naughton <br> Codes of Ethics by American Statistical Association (ASA) and Association for Computing Machinery (ACM)"
+    nonumber: True
+  - title: "The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research <br> Ten Simple Rules for Responsible Big Data Research by M. Zook et al."
+    nonumber: True
+  - title: "Chapter 3: Understanding Ethical Problems by C. Fleddermann"
+    nonumber: True
+  - title: "Hard Choices in Artificial Intelligence by Roel Dobbe et al."
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "No Recommended Readings"
+    nonumber: True
+  - title: "Philosophy of Open Science by Sabina Leonelli"
+    nonumber: True
+  - title: "Is AI Leading to a Reproducibility Crisis in Science? by Philip Ball "
+    nonumber: True
+  - title: "No Recommended Readings"
     nonumber: True

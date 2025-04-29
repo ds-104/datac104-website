@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Schedule
 nav_order: 0
 ---
 
@@ -28,7 +29,7 @@ This website contains materials from a past semester. Information, assignments, 
 {%- endif -%}
 
 
-<!-- <img align="right" alt="Data C104 logo" width="120px" src="{{ site.baseurl }}/assets/images/logo.png"> -->
+<img align="right" alt="Data C104 logo" width="160px" src="{{ site.baseurl }}/assets/images/logo.png">
 
 # {{ site.title }}
 
@@ -64,8 +65,6 @@ This website contains materials from a past semester. Information, assignments, 
 {% endif -%} -->
 
 ## Course Calendar
-
-[Skip to current week](#week-{{ 'now' | date: '%U' }}){: .btn .btn-outline .fs-3 }
 
 <div>
 {%- include syllabus.html -%}

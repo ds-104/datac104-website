@@ -1,0 +1,15 @@
+tools:
+  - tool: "Tool 1"
+    definition: "Definition of Tool 1"
+    case_studies: "Case studies related to Tool 1"
+    guiding_questions: "Guiding questions for Tool 1"
+  
+  - tool: "Tool 2"
+    definition: "Definition of Tool 2"
+    case_studies: "Case studies related to Tool 2"
+    guiding_questions: "Guiding questions for Tool 2"
+  
+  - tool: "Tool 3"
+    definition: "Definition of Tool 3"
+    case_studies: "Case studies related to Tool 3"
+    guiding_questions: "Guiding questions for Tool 3"

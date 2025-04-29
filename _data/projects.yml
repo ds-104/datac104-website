@@ -47,6 +47,6 @@ projects:
   - title: "Unit 5: Sites of Data Ethics Today"
     # link: "/proj1/"
     released: True
-    rowspan: 9
+    rowspan: 11
     classes:
       - proj5 # adds the purple background
