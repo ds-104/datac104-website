@@ -1,6 +1,6 @@
 # Data C104 Course Website
 
-[![pages-build-deployment](https://github.com/ds-104/datac104-website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ds-104/datac104-website/actions/workflows/pages/pages-build-deployment)
+[![Deploy Jekyll site to Pages](https://github.com/ds-104/datac104-website/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ds-104/datac104-website/actions/workflows/jekyll.yml)
 [![Run all page tests](https://github.com/ds-104/datac104-website/actions/workflows/rspec.yml/badge.svg)](https://github.com/ds-104/datac104-website/actions/workflows/rspec.yml)
 
 Dates are for Fall 2024.
