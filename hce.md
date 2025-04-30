@@ -66,10 +66,11 @@ Use of the Toolkit requires your life experiences, identities, values, devotions
       <ul>
         <li>How is human agency delegated to a technology?</li>
         <li>How does the delegation affect responsibility?</li>
-        <li>What kinds of agency is amplified and what kind is constrained by the technology?</li>
-        <ul>
-          <li>In what ways?</li>
-        </ul>
+        <li>What kinds of agency is amplified and what kind is constrained by the technology?
+          <ul>
+            <li>In what ways?</li>
+          </ul>
+        </li>
         <li>What kinds of social structures does the specific form of agency aim to challenge?</li>
       </ul>
     </td>
@@ -232,11 +233,12 @@ None
   </td>
   <td>
     <ul>
-      <li>How does the technology transform the status quo of power?</li>
+      <li>How does the technology transform the status quo of power?
         <ul>
           <li>How does it transform the balance of power? In whose favor?</li>
           <li>Is the power exerted in a more explicit or more covert way?</li>
         </ul>
+      </li>
       <li>How is technical power intertwined with political power in the case? What's the significance of this?</li>
       <li>Who is said to be empowered by the technology or technical event?</li>
       <li>What are the checks on the power?</li>

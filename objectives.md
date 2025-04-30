@@ -6,6 +6,7 @@ description: >-
     Learning goals for the course.
 ---
 
+
 {%- if site.under_construction -%}
 <p class="warning">
 This site is under construction. All dates and policies are tentative until this message goes away.
@@ -17,6 +18,7 @@ This site is under construction. All dates and policies are tentative until this
 This website contains materials from a past semester. Information, assignments, and announcements may no longer be relevant. Please refer to the <a href="https://template.cs161.org">current semester's site</a> for up-to-date content.
 </p>
 {%- endif -%}
+
 {%- comment -%}
 - This file auto-generates the syllabus with all the days of the semester.
 - You should not need to touch anything in here unless you're rewriting
@@ -59,6 +61,8 @@ sorted_dates is an array, where each element is a hash with three fields:
 - "size" is the number of days we'll display in that week
 {%- endcomment -%}
 {%- assign sorted_dates = valid_dates | sort | group_by_exp: "it", "it | date: '%U'" -%}
+
+# Learning Objectives
 
 <div>
   <table>
