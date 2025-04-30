@@ -17,9 +17,22 @@ title: Data C104
 description: Data C104 at UC Berkeley
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'http://data104.org'
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 staff_email: 'datac104@berkeley.edu'
 course_department: dsus
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
+  - CONTRIBUTING.md
+  - tmp/
+  - spec/
+  - docs/
+  - node_modules/
 
 # Heading settings
 lecture:
