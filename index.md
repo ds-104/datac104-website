@@ -29,12 +29,18 @@ This website contains materials from a past semester. Information, assignments, 
 {%- endif -%}
 
 
-<img align="right" alt="Data C104 logo" width="160px" src="{{ site.baseurl }}/assets/images/logo.png">
+<!-- <img align="right" alt="Data C104 logo" width="160px" src="{{ site.baseurl }}/assets/images/logo.png"> -->
 
 # {{ site.title }}
 
-{% if instructors.size != 0 %}
+{% if site.semester != empty %}
 <span style="white-space: nowrap;">
+    <strong>Semester</strong>: {{ site.semester }}
+    <br>
+</span>
+{% endif -%}
+{%- if instructors.size != 0 -%}
+<span>
     <strong>{{instructor_msg}}</strong>: {{ instructors | join: ", " }}{%- if site.lecture.time != "" %} {%- endif -%}
     <br>
 </span>
@@ -49,6 +55,8 @@ This website contains materials from a past semester. Information, assignments, 
     {%- endif -%}
 </span>
 {% endif -%}
+
+
 <!-- {%- if site.heading_links.size != 0 -%}
 <span style="white-space: nowrap;">
     [

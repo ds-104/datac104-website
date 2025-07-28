@@ -313,3 +313,35 @@ h2.text-delta + ul a, #markdown-toc a {
 }
 
 // End 61C Calendar config
+
+
+// logo
+.side-bar .site-header .site-logo {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+
+  margin: 0 auto;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.side-bar .site-header {
+  margin-bottom: 60px;
+  border-bottom: none !important;
+}
+
+.side-bar .site-header .site-title {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+
