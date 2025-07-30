@@ -26,27 +26,21 @@ projects:
     rowspan: 11
     classes:
       - proj1 # adds the purple background
-  - title: "Unit 2: Histories of the Datafied World"
+  - title: "Unit 2: Governance"
     # link: "/proj1/"
     released: True
-    rowspan: 6
+    rowspan: 12
     classes:
       - proj2 # adds the purple background
-  - title: "Unit 3: Governance"
+  - title: "Unit 3: Industry, Capitalism, and Labor"
     # link: "/proj1/"
     released: True
     rowspan: 9
     classes:
       - proj3 # adds the purple background
-  - title: "Unit 4: Industry, Capitalism, and Labor"
+  - title: "Unit 4: Sites of Data Ethics Today"
     # link: "/proj1/"
     released: True
-    rowspan: 6
+    rowspan: 9
     classes:
       - proj4 # adds the purple background
-  - title: "Unit 5: Sites of Data Ethics Today"
-    # link: "/proj1/"
-    released: True
-    rowspan: 11
-    classes:
-      - proj5 # adds the purple background

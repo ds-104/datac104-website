@@ -44,21 +44,15 @@ discussions:
     nonumber: True
   - title: "<ul><li>Donald MacKenzie and Judy Wajcman, “Introductory Essay,” <i>The Social Shaping of Technology</i> </li></ul>"
     nonumber: True
-  - title: "No Readings"
-    nonumber: True
   - title: "<ul><li>G.C. Bowker and S.L. Star, “To Classify is Human,” <i>Sorting Things Out: Classification and Its Consequences</i></li><li>Bay Area Air Quality Management District (BAAQMD)</li></ul>"
     nonumber: True
-  - title: "<ul><li>Colin Koopman, “Informational Persons and Our Information Politics,” <i>How We Became Our Data: A Genealogy of the Informational Person</i></li><li>Ruha Benjamin, “Coded Exposure,” <i>Race After Technology: Abolitionist Tools for the New Jim Code</i></li></ul>"
+  - title: "<ul><li>Ruha Benjamin, “Coded Exposure,” <i>Race After Technology: Abolitionist Tools for the New Jim Code</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>Thomas Kuhn, “Introduction: A Role for History”, <i>The Structure of Scientific Revolutions</i></li></ul>"
-    nonumber: True
-  - title: "<ul><li>Theodore Porter, “Objectivity and Authority: How French Engineers Reduced Public Utility to Numbers,\" <i>Poetics Today</i></li></ul>"
-    nonumber: True
-  - title: "No Readings"
+  - title: "<ul><li>Ian Hacking, “Making Up People”, <i>London Review of Books</i></li></ul>"
     nonumber: True
   - title: "<ul><li>George Orwell, <i>1984</i></li><li>Mireille Hildebrandt, “Introduction: Diana's OnLife World,” <i>Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology</i></li><li>Vlad Savov, “Google's Selfish Ledger is an unsettling vision of Silicon Valley social engineering,” <i>The Verge</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>Laura Forlano and Danya Glabau, “Chapter Five: A Manifesto for Cyborgs,” <i>Cyborg</i></li></ul>"
+  - title: "No Readings"
     nonumber: True
   - title: "<ul><li>Jathan Sadowski, “Chapter 2: A Universe of Data,” <i>Too Smart: How Digital Capitalism is Extracting Data, Controlling Our Lives, and Taking Over the World</i></li><li>Billy Perrigo, “OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic,” <i>Time Magazine</i></li></ul>"
     nonumber: True
@@ -68,17 +62,17 @@ discussions:
     nonumber: True
   - title: "<ul><li>Andrew Brooks, “Why Are Certain Countries Poor? Dismantling Comparative Models of Development,” <i>Bullshit Comparisons</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>Lee Vinsel and Andrew Russel, “Hail the maintainers,” <i>Aeon</i></li><li>Eisenhower Speech</li></ul>"
-    nonumber: True
-  - title: "<ul><li>Leif Wenar, “The Deaths of Effective Altruism,” <i>Wired</i></li><li>John D. Skrenty, “The Precariousness of the STEM Job,” <i>Wasted Education: How We Fail Our Graduates in Science, Technology, Engineering, and Math</i></li></ul>"
-    nonumber: True
   - title: "No Readings"
+    nonumber: True
+  - title: "<ul><li>Sara L. M. Davis, “Contested Indicators,” <i>The Uncounted: Politics of Data in Global Health</i></li></ul>"
     nonumber: True
   - title: "<ul><li>Michel Foucault, “Panopticism,” <i>Discipline and Punish</i></li><li>Gaby Del Valle, “The Most Surveilled Place in America,” <i>The Verge</i></li></ul>"
     nonumber: True
+  - title: "No Readings"
+    nonumber: True
   - title: "<ul><li>Nathan Malkin, “Contextual Integrity, Explained: A More Usable Privacy Definition,” <i>IEEE Security & Privacy</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>Joanna Radin, “Digital Natives: How Medical and Indigenous Histories Matter for Big Data,” <i>Osiris</i></li><li>Jen Caltrider et al, “It's Official: Cars Are the Worst Product Category We Have Ever Reviewed For Privacy,” <i>Mozilla Foundation</i></li></ul>"
+  - title: "<ul><li>Sarah Igo, “Me and My Data,” <i>Historical Studies in the Natural Sciences</i></li><li>Jen Caltrider et al, “It's Official: Cars Are the Worst Product Category We Have Ever Reviewed For Privacy,” <i>Mozilla Foundation</i></li></ul>"
     nonumber: True
   - title: "<ul><li>J. Angwin, J. Larson, S. Mattu, and L. Kirchner, “Machine Bias: There's software used across the country to predict future criminals. And it's biased against Blacks,” <i>ProPublica</i></li><li>A. Feller, E. Pierson, S. Corbett-Davies, and S. Goel, “A computer program used for bail and sentencing decisions was labeled biased against Blacks. It's actually not that clear,” <i>Monkey Cage</i></li></ul>"
     nonumber: True
@@ -86,9 +80,29 @@ discussions:
     nonumber: True
   - title: "<ul><li>Os Keyes, et al. “A Mulching Proposal: Analysing and Improving an Algorithmic System for Turning the Elderly into High-Nutrient Slurry,” <i>CHI</i></li></ul>"
     nonumber: True
+  - title: "<ul><li>Thomas Kuhn, “Introduction: A Role for History,\" <i>The Structure of Scientific Revolutions</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Denisse Alejandra, “Reimagining Open Science Through a Feminist Lens,” <i>Medium</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Harry Collins and Trevor Pinch, “The Science of the Lambs:Chernobyl and the Cumbrian Sheep Farmers,” <i>The Golem at Large: What You Should Know about Technology</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Lee Vinsel and Andrew Russel, “Hail the maintainers,” <i>Aeon</i></li><li>Eisenhower Speech</li></ul>"
+    nonumber: True
+  - title: "<ul><li>Fred Turner, “Machine Politics: The rise of the internet and a new age of authoritarianism,” <i>Harper's</i></li></ul>"
+    nonumber: True
   - title: "No Readings"
     nonumber: True
-  - title: "<ul><li>Sara L. M. Davis, “Contested Indicators,” <i>The Uncounted: Politics of Data in Global Health</i></li></ul>"
+  - title: "No Readings"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "No Readings"
+    nonumber: True
+  - title: "<ul><li>A. Wiener, “Uncanny Valley,” <i>n+1</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Alex Hanna, “On Racialized Tech Organizations and Complaint: A Goodbye to Google,” <i>Medium</i></li></ul>"
+    nonumber: True
+  - title: "<ul><li>Kate Crawford and Vladan Joler, “Anatomy of an AI System”</li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True
@@ -96,33 +110,21 @@ discussions:
     nonumber: True
   - title: "<ul><li>Kate Crawford, “Labor,” <i>Atlas of AI</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>A. Wiener, “Uncanny Valley,” <i>n+1</i></li></ul>"
-    nonumber: True
-  - title: "<ul><li>Alex Hanna, “On Racialized Tech Organizations and Complaint: A Goodbye to Google,” <i>Medium</i></li></ul>"
-    nonumber: True
-  - title: "<ul><li>Maxwell Zeff, “The lawmaker behind California’s vetoed AI bill, SB 1047, has harsh words for Silicon Valley,” <i>Tech Crunch</i></li><li>Cecilia Kang, “California Governor Vetoes Sweeping A.I.,” <i>The New York Times</i></li></ul>"
-    nonumber: True
-  - title: "<ul><li>Kate Crawford and Vladan Joler, “Anatomy of an AI System”</li></ul>"
-    nonumber: True
-  - title: "No Readings"
-    nonumber: True
   - title: "<ul><li>Luke Munn, “The Uselessness of AI Ethics,” <i>AI Ethics</i></li><li>Langdon Winner, “Brandy, Cigars, and Human Values,” <i>The Whale and the Reactor: A Search for Limits in an Age of High Technology</i></li></ul>"
     nonumber: True
-  - title: "<ul><li>UC Berkeley Committee for Protection of Human Subjects, “About CPHS/OPHS”</li><li>UC Berkeley Committee for Protection of Human Subjects, “Guide to the IRB Review Process”</li></ul>"
+  - title: "<ul><li>Joanna Radin, “Digital Natives': How Medical and Indigenous Stories Matter for Data,”<i>Osiris</i></li></ul>"
+    nonumber: True
+  - title: "No Readings"
     nonumber: True
   - title: "<ul><li>Madeleine Clare Elish, “Moral Crumple Zones: Cautionary Tales in Human-Robot Interactions,” <i>Engaging Science, Technology, and Society</i></li><li>MIT Moral Machine</li></ul>"
     nonumber: True
   - title: "<ul><li>Amia Srinivasan, “Stop the Robot Apocalypse,” <i>London Review of Books</i></li></ul>"
     nonumber: True
+  - title: "No Readings"
+    nonumber: True
   - title: "<ul><li>Feminist Data Manifest-No</li></ul>"
     nonumber: True
   - title: "No Readings"
-    nonumber: True
-  - title: "No Readings"
-    nonumber: True
-  - title: "No Readings"
-    nonumber: True
-  - title: "<ul><li>Denisse Alejandra, “Reimagining Open Science Through a Feminist Lens,” <i>Medium</i></li></ul>"
     nonumber: True
   - title: "No Readings"
     nonumber: True

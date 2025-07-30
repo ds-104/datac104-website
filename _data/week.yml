@@ -5,43 +5,43 @@ weeks:
   - title: "Week 2: Making Data"
     nonumber: True
     rowspan: 3
-  - title: "Week 3: Making Knowledge"
+  - title: "Week 3: Narratives and Metaphors of Data"
     nonumber: True
     rowspan: 3
-
-  - title: "Week 4: Narratives about Human-Technology Futures"
+  - title: "Week 4: How Was the World Datafied?"
     nonumber: True
     rowspan: 3
-  - title: "Week 5: States"
+  - title: "Week 5: Governing with Data"
     nonumber: True
     rowspan: 3
-  - title: "Week 6: Capitalism"
+  - title: "Week 6: Privacy"
     nonumber: True
     rowspan: 3
-  - title: "Week 7: Surveillance and Privacy"
+  - title: "Week 7: Governing with Algorithms"
     nonumber: True
     rowspan: 3
-  - title: "Week 8: Governing with Algorithms"
+  - title: "Week 8: Making Socially Robust Knowledge"
     nonumber: True
     rowspan: 3
-  - title: "Week 9: Data From Above, Data From Below"
+  - title: "Week 9: Silicon Valley"
     nonumber: True
     rowspan: 3
-  - title: "Week 10: Industrial Revolutions, Automation, and Labor"
+  - title: "Spring Break"
     nonumber: True
     rowspan: 3
-  - title: "Week 11: Environmental Externalities and the Tech Workplace"
+  - title: "Week 10: The Tech Workplace"
+    nonumber: True
+    rowspan: 3
+  - title: "Week 11: Labor and Industry"
     nonumber: True
     rowspan: 3
   - title: "Week 12: Ethics as Institutions"
     nonumber: True
     rowspan: 3
-  - title: "Week 13: Ethics as Philosophy, Ethics as World-Making"
+  - title: "Week 13: AI Ethics, Ethics as World-Making"
     nonumber: True
     rowspan: 3
-  - title: "Thanksgiving Break"
+  - title: "Week 14: Conclusions"
     nonumber: True
     rowspan: 3
-  - title: "Week 14: Ethics as Cultures of Data Practice"
-    nonumber: True
-    rowspan: 2
+  

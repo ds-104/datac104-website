@@ -60,51 +60,58 @@ lectures:
     #     link: https://textbook.cs161.org/memory-safety/x86.html
     #   - name: x86/GDB Cheat Sheet
     #     link: "https://assets.cs161.org/proj1/cheatsheet.pdf"
-  - title: "Labor Day - No Class"
   - title: "Making Data"
   - title: "Making Personal Data"
+  - title: "Making People Out of Data"
 
-  - title: "Making Science"
-  - title: "Making Objectivity with Numbers"
+  - title: "Data Futures"
   - title: "Making Decisions, Making Choices"
-  - title: "Making Futures"
-  - title: "Making Cyborgs"
-  - title: "Making Value with Data - Data Capitalism"
- 
+  - title: "Data Capitalism"
+
   - title: "States and Populations"
   - title: "Eugenics and Statistics"
   - title: "Global Data"
-  - title: "Silicon Valley, Part 1"
-  - title: "Silicon Valley, Part 2"
 
-  - title: "No Class"
+  - title: "No Class - President's Day"
+  - title: "Global Health Data"
   - title: "Surveillance and Security"
+
+  - title: "No Class - Midterm 1"
   - title: "Privacy Foundations"
   - title: "Privacy in the World"
-  - title: "Algorithmic Governance, Risk and Fairness Part 1: The Standard Narrative"
-  - title: "Algorithmic Governance, Risk and Fairness Part 2: A Sociotechnical Critique"
-  - title: "Algorithmic Governance, Risk and Fairness Part 3: A Historical-Political Critique"
-  - title: "Creating things we can't unsee… Using Social & Data Science to Inform Policy on Eviction & Racial/Gender Equity"
-  - title: "Global Health Data"
-  - title: "Midterm Exam"
 
-  - title: "Labor in the Datafied World"
-  - title: "Automation and Labor"
-  - title: "The Tech Workplace, Part 1"
-  - title: "The Tech Workplace, Part 2 "
-  - title: "Regulation"
-  - title: "Environmental Contexts and Consequences of Data"
+  - title: "Governing with Algorithms 1: Automated Decision Making and Fairness"
+  - title: "Governing with Algorithms 2: Fairness as Sociotechnical"
+  - title: "Governing with Algorithms 3: The Politics of Risk"
+
+  - title: "Making Robust Knowledge"
+  - title: "Working in the Open"
+  - title: "Democracy and Expertise"
+
+  - title: "Silicon Valley, Part 1"
+  - title: "Silicon Valley, Part 2"
+  - title: "No Class"
 
   - title: "No Class"
+  - title: "No Class"
+  - title: "No Class"
+
+  - title: "The Tech Workplace, Part 1"
+  - title: "The Tech Workplace, Part 2"
+  - title: "Environmental Contexts and Consequences of Data"
+
+  - title: "Midterm Exam"
+  - title: "Labor in the Datafied World"
+  - title: "Automation and Labor"
+
   - title: "Professional Ethical Codes"
   - title: "Research Ethics - Checklists, Duties, and Routines"
+  - title: "No Class"
+
   - title: "Moral Philosophy"
   - title: "AI Ethics"
-  - title: "Ethics as World-Making"
+  - title: "No Class"
 
-  - title: "Thanksgiving Break, No Class"
-  - title: "Thanksgiving Break, No Class"
-  - title: "Thanksgiving Break, No Class"
-
-  - title: "Working in the Open"
-  - title: "Making Robust Knowledge"
+  - title: "Conclusions"
+  - title: "Ask Me Anything"
+  - title: "After Data C104: HCE Alumni Spotlight"

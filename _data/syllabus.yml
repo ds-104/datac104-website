@@ -6,8 +6,8 @@
 # Due to time zone issues, these might not show up exactly on the calendar,
 # so some fiddling is necessary. If you're struggling with time zone issues,
 # try setting your system time to GMT when building the website.
-start_date: 2024-08-28
-end_date: 2024-12-06
+start_date: 2025-01-22
+end_date: 2025-05-03
 
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here.
